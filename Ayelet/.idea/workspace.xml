@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CommandLine:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="133" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="63" mnemonic="1" />
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="TEST_STATUS_BUILD_TYPE_IDS" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="456" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="addaaa">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/5dakot_original.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/META-INF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Yahadut.lnk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/ayelet.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang3-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/cons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/halachot.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebrewDate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mail.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/musar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/parameters" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resource" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/sender" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/suntimes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/util" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/zmanim-1.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebrewDate/CalendarDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebrewDate/CalendarImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebrewDate/CalendarUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/CandleLighting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/Cities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/CityLocale.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/CityLocaleList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/DefaultSunRiseSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/HebrewDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/HebrewDateException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarLashonGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarLashonNew.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarMitzvotGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/SunRiseSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/suntimes/SunTimes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/suntimes/SunTimesException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/suntimes/Time.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hebDate/Utilities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/darkeyHoraa.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/data.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/halacha.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/halacha2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/halachaWithAdarA.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/halachaWithoutAdarA.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/hodaot.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/holidays.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resource/locations.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/mail.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resource/mail.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/musar_lashon.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/musar_lashon_new.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/musar_mitzvot.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/parasha.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/files/rishoni.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yahadut.iml" />
+    </list>
+    <list id="4341f79b-9ae3-4e71-bc35-7e76bc9f7bfd" name="ignore" comment="ignore" />
+    <ignored path="yahadut.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yahadut$Main.coverage" NAME="Main Coverage Results" MODIFIED="1353479117388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" line="81" class="ayeleyHashahar.generator.generators.HolidaysGenerator" package="ayeleyHashahar.generator.generators">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="121" class="ayeleyHashahar.generator.TextGeneratorMerger" package="ayeleyHashahar.generator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java" line="47" class="ayeleyHashahar.util.FileUtils" package="ayeleyHashahar.util">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" line="29" class="ayeleyHashahar.sender.MailSender" package="ayeleyHashahar.sender">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="62" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yahadut" />
+    <favorites_list name="Current task" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TextGeneratorMerger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="36" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusarMitzvotGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarMitzvotGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="27" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/files/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="70" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="71" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2244">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailSender.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="125" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.50774527" vertical-offset="215" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalEncrypter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="25" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailSenderCons.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="38" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VetenChelkenu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="36" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailGeneratorProperties.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="11" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2482">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorParameters.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java" />
+        <option value="$PROJECT_DIR$/src/hebDate/CandleLighting.java" />
+        <option value="$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java" />
+        <option value="$PROJECT_DIR$/src/resource/mail.properties" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java" />
+        <option value="$PROJECT_DIR$/resources/files/data.properties" />
+        <option value="$PROJECT_DIR$/AndApp/src/com/ahiel/kodesh/hebDate/CandleLighting.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:mail)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ayelet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ayelet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ayelet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yahadut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandLine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="223" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="221" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="221" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="198" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="197" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="198" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="866" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="198" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="197" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="222" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="892" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last.edited.regexp" value="Sample,Tex,t" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="&#10;{" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ayeleyHashahar.generator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-msg hello world !! magniv -p ahiel" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yahadut" />
+      <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HolidaysGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ayeleyHashahar.generator.generators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ayeleyHashahar.generator.generators.HolidaysGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CommandLine" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LocalEncrypter" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ayeleyHashahar.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ayeleyHashahar.util.LocalEncrypter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CommandLine" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MailSender" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ayeleyHashahar.sender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ayeleyHashahar.sender.MailSender" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CommandLine" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UpdateLines" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ayeleyHashahar.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ayeleyHashahar.util.UpdateLines" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="15 7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CommandLine" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#13;&#10;additional-options2=onexit\=snapshot&#13;&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HolidaysGenerator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LocalEncrypter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MailSender" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UpdateLines" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UpdateLines" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LocalEncrypter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MailSender" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HolidaysGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\ahiel\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\yahadut\Ayelet" />
+          <option name="myCopyRoot" value="D:\Projects\yahadut\Ayelet" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\yahadut\Ayelet" />
+          <option name="myCopyRoot" value="D:\Projects\yahadut\Ayelet" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="" />
+      <changelist id="4341f79b-9ae3-4e71-bc35-7e76bc9f7bfd" name="ignore" comment="" />
+      <created>1352754079142</created>
+      <updated>1354605937280</updated>
+      <workItem from="1389790975500" duration="166000" />
+      <workItem from="1391424621693" duration="1369000" />
+      <workItem from="1391936425169" duration="386000" />
+      <workItem from="1392193299408" duration="19000" />
+      <workItem from="1392276214449" duration="115000" />
+      <workItem from="1392531890014" duration="4306000" />
+      <workItem from="1392537652325" duration="58000" />
+      <workItem from="1392556511134" duration="732000" />
+      <workItem from="1392557679534" duration="409000" />
+    </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1352790485101</created>
+      <updated>1352790485101</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a">
+      <created>1352790735100</created>
+      <updated>1352790735100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="a">
+      <created>1352795080100</created>
+      <updated>1352795080100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add parasha line num to properties">
+      <created>1352820646100</created>
+      <updated>1352820646100</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add parasha line num to properties">
+      <created>1352880099100</created>
+      <updated>1352880099100</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add parasha line num to properties">
+      <created>1352885179100</created>
+      <updated>1352885179100</updated>
+    </task>
+    <task id="LOCAL-00007" summary="a">
+      <created>1352885392100</created>
+      <updated>1352885392100</updated>
+    </task>
+    <task id="LOCAL-00008" summary="a">
+      <created>1352965656100</created>
+      <updated>1352965656100</updated>
+    </task>
+    <task id="LOCAL-00009" summary="a">
+      <created>1352984611100</created>
+      <updated>1352984611100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="a">
+      <created>1352990085100</created>
+      <updated>1352990085100</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add">
+      <created>1352990740100</created>
+      <updated>1352990740100</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add">
+      <created>1353224102103</created>
+      <updated>1353224102103</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add">
+      <created>1353229942100</created>
+      <updated>1353229942100</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add">
+      <created>1353249227101</created>
+      <updated>1353249227101</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <created>1353254666100</created>
+      <updated>1353254666100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add">
+      <created>1353254790101</created>
+      <updated>1353254790101</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add">
+      <created>1353255280100</created>
+      <updated>1353255280100</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add">
+      <created>1353306417100</created>
+      <updated>1353306417100</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add">
+      <created>1353314275117</created>
+      <updated>1353314275117</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add">
+      <created>1353314354100</created>
+      <updated>1353314354100</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add">
+      <created>1353330311115</created>
+      <updated>1353330311115</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add">
+      <created>1353392293100</created>
+      <updated>1353392293100</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add">
+      <created>1353393337100</created>
+      <updated>1353393337100</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add">
+      <created>1353406909103</created>
+      <updated>1353406909103</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add">
+      <created>1353479924100</created>
+      <updated>1353479924100</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add">
+      <created>1353496825100</created>
+      <updated>1353496825100</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add">
+      <created>1353828887100</created>
+      <updated>1353828887100</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add">
+      <created>1353830242101</created>
+      <updated>1353830242101</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add">
+      <created>1353912112101</created>
+      <updated>1353912112101</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add">
+      <created>1353925454100</created>
+      <updated>1353925454100</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add">
+      <created>1353925943100</created>
+      <updated>1353925943100</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add">
+      <created>1354088586169</created>
+      <updated>1354088586169</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add">
+      <created>1354178078100</created>
+      <updated>1354178078100</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add">
+      <created>1354178152100</created>
+      <updated>1354178152100</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add">
+      <created>1354429212100</created>
+      <updated>1354429212100</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add">
+      <created>1354518159257</created>
+      <updated>1354518159257</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add">
+      <created>1354604553101</created>
+      <updated>1354604553101</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add">
+      <created>1354609034100</created>
+      <updated>1354609034100</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add">
+      <created>1354691618100</created>
+      <updated>1354691618100</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add">
+      <created>1354706545121</created>
+      <updated>1354706545121</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add">
+      <created>1354779467101</created>
+      <updated>1354779467101</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add">
+      <created>1354781471105</created>
+      <updated>1354781471105</updated>
+    </task>
+    <task id="LOCAL-00043" summary="addaaa">
+      <created>1355033321102</created>
+      <updated>1355033321102</updated>
+    </task>
+    <task id="LOCAL-00044" summary="addaaa">
+      <created>1355033876100</created>
+      <updated>1355033876100</updated>
+    </task>
+    <task id="LOCAL-00045" summary="addaaa">
+      <created>1355036902100</created>
+      <updated>1355036902100</updated>
+    </task>
+    <task id="LOCAL-00046" summary="addaaa">
+      <created>1355120648100</created>
+      <updated>1355120648100</updated>
+    </task>
+    <task id="LOCAL-00047" summary="addaaa">
+      <created>1355206151100</created>
+      <updated>1355206151100</updated>
+    </task>
+    <task id="LOCAL-00048" summary="addaaa">
+      <created>1355292397101</created>
+      <updated>1355292397101</updated>
+    </task>
+    <task id="LOCAL-00049" summary="addaaa">
+      <created>1355293199100</created>
+      <updated>1355293199100</updated>
+    </task>
+    <task id="LOCAL-00050" summary="addaaa">
+      <created>1355379928101</created>
+      <updated>1355379928101</updated>
+    </task>
+    <task id="LOCAL-00051" summary="addaaa">
+      <created>1355638224100</created>
+      <updated>1355638224100</updated>
+    </task>
+    <task id="LOCAL-00052" summary="addaaa">
+      <created>1355727921100</created>
+      <updated>1355727921100</updated>
+    </task>
+    <task id="LOCAL-00053" summary="addaaa">
+      <created>1355995792100</created>
+      <updated>1355995792100</updated>
+    </task>
+    <task id="LOCAL-00054" summary="addaaa">
+      <created>1355996828100</created>
+      <updated>1355996828100</updated>
+    </task>
+    <task id="LOCAL-00055" summary="addaaa">
+      <created>1356255398100</created>
+      <updated>1356255398100</updated>
+    </task>
+    <task id="LOCAL-00056" summary="addaaa">
+      <created>1356593549103</created>
+      <updated>1356593549104</updated>
+    </task>
+    <task id="LOCAL-00057" summary="addaaa">
+      <created>1356593894101</created>
+      <updated>1356593894101</updated>
+    </task>
+    <task id="LOCAL-00058" summary="addaaa">
+      <created>1356594326100</created>
+      <updated>1356594326100</updated>
+    </task>
+    <task id="LOCAL-00059" summary="addaaa">
+      <created>1366705650100</created>
+      <updated>1366705650100</updated>
+    </task>
+    <task id="LOCAL-00060" summary="addaaa">
+      <created>1366705815100</created>
+      <updated>1366705815100</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3217483" sideWeight="0.57961786" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3217483" sideWeight="0.45415318" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3240043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53937435" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31858873" sideWeight="0.6" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3217483" sideWeight="0.42038217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34842107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894042" sideWeight="0.67296994" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6495536" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6495536" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6707589" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33009708" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="add parasha line num to properties" />
+    <MESSAGE value="a" />
+    <MESSAGE value="add" />
+    <MESSAGE value="addaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="addaaa" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/HebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="81" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="13005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="53" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="41" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="63" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="38" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="123" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="41" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="63" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="38" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/CityLocale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="56" selection-start="585" selection-end="585" vertical-scroll-proportion="0.38946164" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/LocaleISOData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="32" selection-start="12582" selection-end="12587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/SimpleTimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1106" column="16" selection-start="47409" selection-end="47409" vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="638" column="28" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="22" selection-start="14308" selection-end="14308" vertical-scroll-proportion="0.33333334" vertical-offset="4216" max-vertical-offset="46903" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="949" column="18" selection-start="38410" selection-end="38410" vertical-scroll-proportion="0.0" vertical-offset="15298" max-vertical-offset="18513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/HebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="81" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.0" vertical-offset="2164" max-vertical-offset="12716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2008" column="18" selection-start="79579" selection-end="79579" vertical-scroll-proportion="0.0" vertical-offset="33445" max-vertical-offset="52292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="3082" selection-end="3082" vertical-scroll-proportion="1.5376885" vertical-offset="0" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="19" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yahadut.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="635" selection-end="635" vertical-scroll-proportion="0.52307695" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="25" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artifacts/Yahadut/send.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="86" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/locations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/files/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="70" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="11" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarMitzvotGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="71" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="125" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.50774527" vertical-offset="215" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CommandLine:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-compiler</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yahadut</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mail</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

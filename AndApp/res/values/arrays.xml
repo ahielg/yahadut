@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Language">
+        <item>English</item>
+        <item>עברית</item>
+    </string-array>
+    <string-array name="Language_values">
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="font_name">
+        <item>Default</item>
+        <item>Guttman Keren</item>
+        <item>Narkisim</item>
+        <item>Cardo</item>
+    </string-array>
+    <string-array name="font_name_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="silent_mode">
+        <item>Always switch to silent mode</item>
+        <item>Never switch to silent mode</item>
+        <item>Ask me every time</item>
+    </string-array>
+    <string-array name="silent_mode_heb">
+        <item>תמיד העבר למצב שקט</item>
+        <item>לעולם אל תעביר למצב שקט</item>
+        <item>שאל אותי בכל פעם</item>
+    </string-array>
+    <string-array name="silent_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="nusachHeb">
+        <item>עדות המזרח</item>
+        <item>ספרד</item>
+        <item>אשכנז</item>
+        <item>ארי (חבד)</item>
+    </string-array>
+    <string-array name="nusachEng">
+        <item>Edot HaMizrach</item>
+        <item>Sefarad</item>
+        <item>Ashkenaz</item>
+        <item>Ari (Chabad)</item>
+    </string-array>
+    <string-array name="nusach_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="themeHeb">
+        <item>קלאסי</item>
+        <item>כהה</item>
+        <item>מודרני</item>
+        <item>עתיק</item>
+    </string-array>
+    <string-array name="themeEng">
+        <item>Classic</item>
+        <item>Dark</item>
+        <item>Modern</item>
+        <item>Antique</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="modeHeb">
+        <item>רגיל</item>
+        <item>יחיד</item>
+        <item>חזן</item>
+    </string-array>
+    <string-array name="modeEng">
+        <item>Normal</item>
+        <item>Yahid (Alone)</item>
+        <item>Chazan</item>
+    </string-array>
+    <string-array name="mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alertHeb">
+        <item>בזמן</item>
+        <item>10 דקות</item>
+        <item>רבע שעה</item>
+        <item>20 דקות</item>
+        <item>חצי שעה</item>
+        <item>40 דקות</item>
+        <item>50 דקות</item>
+        <item>שעה</item>
+    </string-array>
+    <string-array name="alertEng">
+        <item>On Time</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>50 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+    <string-array name="alert_values">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="alertOmerHeb">
+        <item>עם צאת הכוכבים</item>
+        <item>10 דקות לאחר צאת הכוכבים</item>
+        <item>30 דקות לאחר צאת הכוכבים</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="alertOmerEng">
+        <item>Right on Tzeit</item>
+        <item>10 Minutes after Tzeit</item>
+        <item>30 Minutes after Tzeit</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="alert_omer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tzetKochavHeb">
+        <item>הגרע יוסף - 13.5 דקות לאחר שקיעה</item>
+        <item>הגאון מוילנה - 18 דקות לאחר שקיעה</item>
+        <item>בעל התניא - 24 דקות לאחר שקיעה</item>
+        <item>חזון איש - 40 דקות לאחר שקיעה</item>
+    </string-array>
+    <string-array name="tzetKochavEng">
+        <item>Hacham Ovadia Yosef - 13.5 Minutes after Sunset</item>
+        <item>GRA - 18 Minutes after Sunset</item>
+        <item>Baal Hatania - 24 Minutes after Sunset</item>
+        <item>Chazon Ish - 40 Minutes after Sunset</item>
+    </string-array>
+    <string-array name="graOrMagenHeb">
+        <item>מגן אברהם</item>
+        <item>גרא ובעל התניא</item>
+    </string-array>
+    <string-array name="graOrMagenEng">
+        <item>Magen Avraham</item>
+        <item>Gra and Baal Tanya</item>
+    </string-array>
+    <string-array name="two_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="alotHeb">
+        <item>90 דקות קודם הנץ</item>
+        <item>72 דקות קודם הנץ</item>
+        <item>72 דקות במעלות קודם הנץ</item>
+    </string-array>
+    <string-array name="alotEng">
+        <item>90 Minutes before Sunrise</item>
+        <item>72 Minutes before Sunrise</item>
+        <item>72 Minutes as 16.1 degrees</item>
+    </string-array>
+    <string-array name="shabbatStartHeb">
+        <item>18 דקות לפני השקיעה</item>
+        <item>20 דקות לפני השקיעה</item>
+        <item>40 דקות לפני השקיעה</item>
+    </string-array>
+    <string-array name="shabbatStartEng">
+        <item>18 Minutes before sunset</item>
+        <item>20 Minutes before sunset</item>
+        <item>40 Minutes before sunset</item>
+    </string-array>
+    <string-array name="shabbat_start_values">
+        <item>18</item>
+        <item>20</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="shabbatEndHeb">
+        <item>20 דקות לאחר השקיעה</item>
+        <item>צאת שלושה כוכבים קטנים</item>
+        <item>40 דקות לאחר השקיעה</item>
+    </string-array>
+    <string-array name="shabbatEndEng">
+        <item>20 Minutes after sunset</item>
+        <item>Three small start</item>
+        <item>40 Minutes after sunset</item>
+    </string-array>
+    <string-array name="changeHeb">
+        <item>שקיעה</item>
+        <item>5 דקות לאחר שקיעה</item>
+        <item>צאת הכוכבים</item>
+    </string-array>
+    <string-array name="changeEng">
+        <item>Sunset</item>
+        <item>5 Minutes after sunset</item>
+        <item>Tzeit</item>
+    </string-array>
+    <string-array name="sunriseHeb">
+        <item>הנץ הנראה</item>
+        <item>הנץ במישור</item>
+    </string-array>
+    <string-array name="sunriseEng">
+        <item>Elevation adjusted sunrise time</item>
+        <item>In a level region</item>
+    </string-array>
+    <string-array name="page_scroll_heb">
+        <item>איטי</item>
+        <item>בינוני</item>
+        <item>מהיר</item>
+    </string-array>
+    <string-array name="page_scroll_eng">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+    </string-array>
+    <string-array name="page_scroll_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>
