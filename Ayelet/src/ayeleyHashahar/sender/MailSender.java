@@ -72,7 +72,7 @@ public class MailSender {
                 senders = dynamic_properties.getProperty(sendMailToPropertyName);
             }
         }
-        return senders.replace('@', '#').split(",");
+        return senders.replace('#','@').split(",");
     }
          /*
     public void saveDraftMessage(MimeMessage draftMessage) throws MessagingException {

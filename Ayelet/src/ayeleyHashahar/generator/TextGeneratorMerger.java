@@ -32,7 +32,9 @@ public class TextGeneratorMerger {
         textGenerators.add(new VetenChelkenu());
         textGenerators.add(new HolidaysGenerator());
         //textGenerators.add(new MusarMitzvotGenerator());
-        FileUtils.loadPropertiesFiles();
+        if (MailSenderCons.dynamic_properties.size() == 0) {
+            FileUtils.loadPropertiesFiles();
+        }
     }
 
 
@@ -223,7 +225,7 @@ public class TextGeneratorMerger {
                         "את הספר הלכה יומית ניתן להשיג בטלפונים 02-9973696 או 03-6748786");
             }
         } else {
-            hebDate = "<a href=\"http://www.yeshiva.org.il/calendar/\" style=\"text-decoration:none;color:#999\">"+hebDate+"</a>";
+            hebDate = "<a href=\"http://www.yeshiva.org.il/calendar/\" style=\"text-decoration:none;color:#999\">" + hebDate + "</a>";
         }
 
         int templateLength = page.length();

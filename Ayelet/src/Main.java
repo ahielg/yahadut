@@ -1,6 +1,7 @@
 import ayeleyHashahar.generator.TextGeneratorMerger;
 import ayeleyHashahar.parameters.MailGeneratorProperties;
 import ayeleyHashahar.sender.MailSender;
+import ayeleyHashahar.util.FileUtils;
 import ayeleyHashahar.util.LocalEncrypter;
 import hebDate.RegularHebrewDate;
 
@@ -62,6 +63,7 @@ public class Main {
         }
 
         Calendar instance = Calendar.getInstance();
+        FileUtils.loadPropertiesFiles();
 
         MailGeneratorProperties mailGeneratorProperties = new MailGeneratorProperties(false, true, true, instance);
         if (messages != null) {
