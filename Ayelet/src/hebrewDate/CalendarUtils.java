@@ -20,11 +20,7 @@ public class CalendarUtils {
     }
 
     public static String parseHebDate(CalendarDate c) {
-        StringBuilder date = new StringBuilder();
-        date.append(gimatria(c.getDay())).append(' ')
-                .append(getJewishMonthName(c.getMonth(), c.getYear()))
-                .append(' ').append(gimatria(c.getYear()));
-        return date.toString();
+        return gimatria(c.getDay()) + ' ' + getJewishMonthName(c.getMonth(), c.getYear()) + ' ' + gimatria(c.getYear());
     }
 
     public static CalendarDate currJewishDate() {
@@ -87,7 +83,7 @@ public class CalendarUtils {
         int hebMonth = jewishDate.getMonth();
         int hebYear = jewishDate.getYear();
 
-        Set<String> listHolidays = new HashSet<String>();
+        Set<String> listHolidays = new HashSet<String>(5);
 
         // Holidays in Nisan
 
@@ -347,7 +343,7 @@ public class CalendarUtils {
     }
 
     public static String gimatria(int n) {
-        StringBuilder gimatria = new StringBuilder();
+        StringBuilder gimatria = new StringBuilder(50);
         if (n % 1000 == 0) {
             gimatria.append(gimatria(n / 1000)).append("אלפים");
             return gimatria.toString();
@@ -356,9 +352,9 @@ public class CalendarUtils {
             return gimatria.toString();
         }
 
-        StringBuilder p = new StringBuilder();
+        StringBuilder p = new StringBuilder(50);
         while (n >= 400) {
-            p.append("ת");
+            p.append('ת');
             n -= 400;
         }
 

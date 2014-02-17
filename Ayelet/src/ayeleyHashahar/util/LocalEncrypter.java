@@ -17,16 +17,14 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
 public class LocalEncrypter {
-    private static DESKeySpec keySpec;
-    private static SecretKeyFactory keyFactory;
     private static SecretKey key;
     private static sun.misc.BASE64Encoder base64encoder;
     private static sun.misc.BASE64Decoder base64decoder;
 
     static {
         try {
-            keySpec = new DESKeySpec("beezratHashem".getBytes("UTF8"));
-            keyFactory = SecretKeyFactory.getInstance("DES");
+            DESKeySpec keySpec = new DESKeySpec("beezratHashem".getBytes("UTF8"));
+            SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
             key = keyFactory.generateSecret(keySpec);
         } catch (InvalidKeySpecException ignored) {
 

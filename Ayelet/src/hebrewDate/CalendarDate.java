@@ -15,9 +15,9 @@ public class CalendarDate {
     }
 
     CalendarDate(CalendarDate date) {
-        this.day = date.getDay();
-        this.month = date.getMonth();
-        this.year = date.getYear();
+        this.day = date.day;
+        this.month = date.month;
+        this.year = date.year;
     }
 
     public CalendarDate(Calendar date) {
@@ -51,9 +51,9 @@ public class CalendarDate {
     }
 
     public boolean areDatesEqual(CalendarDate date) {
-        return (day == date.getDay()) &&
-                (month == date.getMonth()) &&
-                (year == date.getYear());
+        return (day == date.day) &&
+                (month == date.month) &&
+                (year == date.year);
     }
 
     public int getHashCode() {
@@ -61,7 +61,7 @@ public class CalendarDate {
     }
 
     public String toString() {
-        return day + "." + month + "." + year;
+        return day + "." + month + '.' + year;
     }
 
     private int day;

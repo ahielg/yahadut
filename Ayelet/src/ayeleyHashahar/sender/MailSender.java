@@ -11,6 +11,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 /**
  * User: ahiel
@@ -18,6 +19,8 @@ import java.util.Properties;
  * Time: 23:30
  */
 public class MailSender {
+    private static final Pattern COMPILE = Pattern.compile(",");
+
     private MailSender() {
     }
 
@@ -43,12 +46,13 @@ public class MailSender {
 
         // To get the array of addresses
         for (String address : to) { // changed from a while loop
+            //noinspection ObjectAllocationInLoop
             message.addRecipient(Message.RecipientType.BCC, new InternetAddress(address));
         }
 
         String holiday = new RegularHebrewDate().getHoliday();
-        if (!"".equals(holiday)) {
-            holiday = holiday + ", ";
+        if (holiday != null && !holiday.isEmpty()) {
+            holiday += ", ";
         }
 
         //message.setSubject("איילת השחר - " + holiday + RegularHebrewDate.getNextParsha());
@@ -72,7 +76,7 @@ public class MailSender {
                 senders = dynamic_properties.getProperty(sendMailToPropertyName);
             }
         }
-        return senders.replace('#','@').split(",");
+        return COMPILE.split(senders.replace('#', '@'));
     }
          /*
     public void saveDraftMessage(MimeMessage draftMessage) throws MessagingException {

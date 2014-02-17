@@ -193,10 +193,10 @@ public class SunTimes {
                 + 0.020 * sinDeg(2 * sunMeanAnomaly) + 282.634;
 // get longitude into 0-360 degree range
         if (l >= 360.0) {
-            l = l - 360.0;
+            l -= 360.0;
         }
         if (l < 0) {
-            l = l + 360.0;
+            l += 360.0;
         }
         return l;
     }
@@ -386,7 +386,7 @@ public class SunTimes {
                     zenith
             );
         } catch (SunTimesException e) {
-            throw new RuntimeException("Could not compute sunrise for day " + date + " at point(" + longitude + ", " + latitude + ")", e);
+            throw new RuntimeException("Could not compute sunrise for day " + date + " at point(" + longitude + ", " + latitude + ')', e);
         }
         try {
             sunsetTime = getSunsetTimeUTC(year,
@@ -397,7 +397,7 @@ public class SunTimes {
                     zenith
             );
         } catch (SunTimesException e) {
-            throw new RuntimeException("Could not compute sunset for day " + date + " at point (" + longitude + ", " + latitude + ")", e);
+            throw new RuntimeException("Could not compute sunset for day " + date + " at point (" + longitude + ", " + latitude + ')', e);
         }
         return sunsetTime.getFractionalHours() -
                 sunriseTime.getFractionalHours();

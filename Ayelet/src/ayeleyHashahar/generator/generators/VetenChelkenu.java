@@ -12,8 +12,8 @@ import java.io.IOException;
  *         Date: 11/28/12
  */
 public class VetenChelkenu  implements TextGenerator {
-    private static final String veten_site = "http://www.veten.co.il/%s.pdf";
-    private static final String[] hebrewMonths = {"nisan", "eiar", "sivan", "tamuz",//first year was eyar.. now its eiar
+    private static final String VETEN_SITE = "http://www.veten.co.il/%s%d.pdf";
+    private static final String[] HEBREW_MONTHS = {"nisan", "eiar", "sivan", "tamuz",//first year was eyar.. now its eiar
             "av", "elul", "tishrei", "cheshvan",
             "kislev", "tevet", "shvat", "adar", "adar-b"};
 
@@ -26,15 +26,15 @@ public class VetenChelkenu  implements TextGenerator {
     public void generateText(GeneratorParameters params, MailGeneratorProperties mailGeneratorProperties) throws IOException {
         RegularHebrewDate regularHebrewDate = new RegularHebrewDate(mailGeneratorProperties.getDate());
         String month = getMonthAsString(regularHebrewDate);
-        mailGeneratorProperties.setVetenLink(String.format("http://www.veten.co.il/%s%d.pdf", month, regularHebrewDate.getHebrewDate()));
+        mailGeneratorProperties.setVetenLink(String.format(VETEN_SITE, month, regularHebrewDate.getHebrewDate()));
     }
 
-    public String getMonthAsString(RegularHebrewDate regularHebrewDate) {
+    public static String getMonthAsString(RegularHebrewDate regularHebrewDate) {
         // if it is a leap year and 12th month //
         if (regularHebrewDate.isHebrewLeapYear() && regularHebrewDate.getHebrewMonth() == 12)
             return "adara";
             //return "adar-a";
         else
-            return hebrewMonths[regularHebrewDate.getHebrewMonth() - 1];
+            return HEBREW_MONTHS[regularHebrewDate.getHebrewMonth() - 1];
     }
 }
