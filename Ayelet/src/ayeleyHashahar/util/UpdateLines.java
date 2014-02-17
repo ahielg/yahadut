@@ -2,7 +2,6 @@ package ayeleyHashahar.util;
 
 import ayeleyHashahar.cons.MailSenderCons;
 import hebDate.RegularHebrewDate;
-import org.apache.commons.lang3.math.NumberUtils;
 
 import java.io.IOException;
 
@@ -12,7 +11,7 @@ import java.io.IOException;
  */
 public class UpdateLines {
     public static void main(String[] args) throws IOException {
-        if (args.length != 2 || !NumberUtils.isNumber(args[0]) || !NumberUtils.isNumber(args[1])) {
+        if (args.length != 2 || !isInteger(args[0]) || !isInteger(args[1])) {
             System.out.println("Usage: " + UpdateLines.class.getSimpleName() + " [ParashaNumber] [Lines to add]");
             int i = 0;
             for (String s : RegularHebrewDate.getParshios()) {
@@ -39,5 +38,15 @@ public class UpdateLines {
         FileUtils.savePropertiesFile(MailSenderCons.dynamic_properties);
 
 
+    }
+
+    public static boolean isInteger(String str) {
+        try {
+            //noinspection ResultOfMethodCallIgnored
+            Integer.parseInt(str);
+            return true;
+        } catch (NumberFormatException ignored) {
+        }
+        return false;
     }
 }

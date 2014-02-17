@@ -6,7 +6,7 @@ package hebDate.suntimes;
  * Time: 15:11
  */
 
-import org.apache.commons.lang3.time.DateUtils;
+import hebDate.Utilities;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -370,7 +370,7 @@ public class SunTimes {
     public static double getDayDurationInMonths(Date date,
                                                 float longitude,
                                                 float latitude) {
-        Calendar calendar = DateUtils.toCalendar(date);
+        Calendar calendar = Utilities.toCalendar(date);
         int year = calendar.get(Calendar.YEAR);
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
