@@ -47,6 +47,7 @@ public class TextGeneratorMerger {
     public String generateMailSubject(MailGeneratorProperties mailGeneratorProperties) throws IOException {
         RegularHebrewDate regularHebrewDate = new RegularHebrewDate(mailGeneratorProperties.getDate());
         String subject = AYELET_HASHACHAR + " - ";//MailSenderCons.properties.getProperty(MailSenderCons.NOSE)
+        subject = "";
         int parashaBaa = RegularHebrewDate.getNextParashaNumOnShabat(mailGeneratorProperties.getDate());
         int nextHolidayNum = RegularHebrewDate.getNextHolidayNum(mailGeneratorProperties.getDate(), 7);
 

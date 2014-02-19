@@ -27,6 +27,7 @@ public class MailSender {
     public static void sendMail(String body, String[] to, String subject, String pass) throws Exception {
         String host = "smtp.gmail.com";
         String from = MailSenderCons.properties.getProperty(MailSenderCons.MAIL_USERNAME).replace('#','@');
+
         if (pass == null) {
             pass = LocalEncrypter.decrypt(MailSenderCons.properties.getProperty(MailSenderCons.MAIL_PASSWORD));
         }
@@ -44,6 +45,7 @@ public class MailSender {
         MimeMessage message = new MimeMessage(session);
         message.setFrom(new InternetAddress(from));
 
+        message.addRecipient(Message.RecipientType.BCC, new InternetAddress(from));
         // To get the array of addresses
         for (String address : to) { // changed from a while loop
             //noinspection ObjectAllocationInLoop
