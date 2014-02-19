@@ -1,0 +1,1 @@
+java -jar -Dfile.encoding=windows-1255 Yahadut.jar -p <PASS>
