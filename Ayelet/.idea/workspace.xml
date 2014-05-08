@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CommandLine:jar" />
+      <artifact name="yahadut:jar" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="135" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="65" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="136" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="66" mnemonic="1" />
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
@@ -41,13 +41,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" afterPath="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resource/mail.properties" afterPath="$PROJECT_DIR$/src/resource/mail.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yahadut.iml" afterPath="$PROJECT_DIR$/yahadut.iml" />
-    </list>
+    <list default="true" readonly="true" id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="" />
     <list id="4341f79b-9ae3-4e71-bc35-7e76bc9f7bfd" name="ignore" comment="ignore" />
     <ignored path="yahadut.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +66,7 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" line="81" class="ayeleyHashahar.generator.generators.HolidaysGenerator" package="ayeleyHashahar.generator.generators">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -89,7 +82,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="123" class="ayeleyHashahar.generator.TextGeneratorMerger" package="ayeleyHashahar.generator">
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" line="124" class="ayeleyHashahar.generator.TextGeneratorMerger" package="ayeleyHashahar.generator">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -104,7 +97,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="17" class="Main" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" line="71" class="ayeleyHashahar.sender.MailSender" package="ayeleyHashahar.sender">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -119,37 +112,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" line="65" class="ayeleyHashahar.sender.MailSender" package="ayeleyHashahar.sender">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="64" class="Main" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" line="74" class="ayeleyHashahar.sender.MailSender" package="ayeleyHashahar.sender">
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" line="80" class="ayeleyHashahar.sender.MailSender" package="ayeleyHashahar.sender">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -179,7 +142,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="118" class="Main" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java" line="52" class="ayeleyHashahar.generator.generators.HalachaGenerator" package="ayeleyHashahar.generator.generators">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -195,7 +158,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -231,8 +194,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -240,35 +203,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="yahadut" />
     <favorites_list name="Current task" />
+    <favorites_list name="yahadut" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextGeneratorMerger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <file leaf-file-name="HalachaGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="40" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="4420">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1598">
+              <caret line="70" column="201" selection-start-line="70" selection-start-column="114" selection-end-line="70" selection-end-column="114" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateLines.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
+      <file leaf-file-name="VetenChelkenu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="930" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.7258065" vertical-offset="43" max-vertical-offset="663">
+              <caret line="36" column="78" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="data.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+        <entry file="file://$PROJECT_DIR$/resources/data/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="26" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1241">
+            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1258">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailSenderCons.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="969">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -277,34 +251,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="0" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2261">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MailSender.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="76" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.3773913" vertical-offset="531" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalEncrypter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="25" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1122">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2448">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -313,27 +261,28 @@
       <file leaf-file-name="FileUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1904">
-              <folding>
-                <element signature="e#3374#3412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VetenChelkenu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1972">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MailGeneratorProperties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java">
+      <file leaf-file-name="MailSender.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="11" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1700">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1683">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextGeneratorMerger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="4471">
+              <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -351,21 +300,30 @@
       <list>
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java" />
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java" />
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java" />
         <option value="$PROJECT_DIR$/src/hebDate/CandleLighting.java" />
         <option value="$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java" />
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java" />
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java" />
         <option value="$PROJECT_DIR$/AndApp/src/com/ahiel/kodesh/hebDate/CandleLighting.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" />
         <option value="$PROJECT_DIR$/resources/files/data.properties" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
         <option value="$PROJECT_DIR$/src/resource/mail.properties" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" />
+        <option value="$PROJECT_DIR$/resources/config/mail.properties" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java" />
+        <option value="$PROJECT_DIR$/lib/mail.jar!/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/hebrewDate/CalendarUtils.java" />
+        <option value="$PROJECT_DIR$/src/hebrewDate/CalendarDate.java" />
+        <option value="$PROJECT_DIR$/src/hebDate/suntimes/SunTimes.java" />
+        <option value="$PROJECT_DIR$/src/hebDate/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
+        <option value="$PROJECT_DIR$/resources/send.bat" />
+        <option value="$PROJECT_DIR$/resources/data/data.properties" />
+        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java" />
       </list>
     </option>
   </component>
@@ -373,10 +331,26 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Threading issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -397,7 +371,7 @@
     </ignored-problems>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -409,6 +383,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -430,39 +414,15 @@
               <option name="myItemId" value="yahadut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="yahadut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -472,7 +432,7 @@
   <component name="PropertiesComponent">
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="223" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="221" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="221" />
     <property name="project.structure.proportion" value="0.15" />
@@ -489,7 +449,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="197" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="198" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/META-INF" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="866" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="198" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -502,7 +462,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="892" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
@@ -522,6 +482,10 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ayeleyHashahar.generator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\yahadut\resources\data" />
+      <recent name="D:\Projects\yahadut\resources\config" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -544,9 +508,7 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Profile ">
-        <option name="myExternalizedOptions" />
-      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile " />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Debug" />
@@ -648,30 +610,13 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Profile ">
-        <option name="myExternalizedOptions" value="&#13;&#10;additional-options2=onexit\=snapshot&#13;&#10;" />
-      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile " />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -738,21 +683,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.HolidaysGenerator" />
@@ -776,23 +706,8 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
     <configuration useDefault="false">C:\Users\ahiel\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
@@ -829,7 +744,12 @@
       <workItem from="1392556511134" duration="732000" />
       <workItem from="1392557679534" duration="884000" />
       <workItem from="1392559037207" duration="15000" />
-      <workItem from="1392559099456" duration="1375000" />
+      <workItem from="1392559099456" duration="1538000" />
+      <workItem from="1392619932324" duration="3650000" />
+      <workItem from="1392805966863" duration="337000" />
+      <workItem from="1393416560852" duration="1097000" />
+      <workItem from="1393934390665" duration="384000" />
+      <workItem from="1398926798935" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1352790485101</created>
@@ -1071,35 +991,75 @@
       <created>1366705815100</created>
       <updated>1366705815100</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061">
+      <created>1392620103100</created>
+      <updated>1392620103100</updated>
+    </task>
+    <task id="LOCAL-00062">
+      <created>1392620679100</created>
+      <updated>1392620679100</updated>
+    </task>
+    <task id="LOCAL-00063">
+      <created>1392621055101</created>
+      <updated>1392621055101</updated>
+    </task>
+    <task id="LOCAL-00064">
+      <created>1392621588100</created>
+      <updated>1392621588100</updated>
+    </task>
+    <task id="LOCAL-00065">
+      <created>1392621871100</created>
+      <updated>1392621871100</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1392623012100</created>
+      <updated>1392623012100</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1392806202100</created>
+      <updated>1392806202100</updated>
+    </task>
+    <task id="LOCAL-00068">
+      <created>1392806302100</created>
+      <updated>1392806302100</updated>
+    </task>
+    <task id="LOCAL-00069">
+      <created>1393934405122</created>
+      <updated>1393934405122</updated>
+    </task>
+    <task id="LOCAL-00070">
+      <created>1398926877152</created>
+      <updated>1398926877152</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17246000" />
+    <option name="totallyTimeSpent" value="23131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3217483" sideWeight="0.58038586" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.58179015" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3217483" sideWeight="0.45415318" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32362458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3416149" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53937435" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53786707" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31858873" sideWeight="0.6" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3217483" sideWeight="0.41961414" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34842107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.41666666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3477589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894042" sideWeight="0.67296994" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1115,7 +1075,10 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -1133,326 +1096,420 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java</url>
+          <line>81</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hebDate/HebrewDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="81" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="13005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/mail.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+          <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="63" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
+          <caret line="126" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="38" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
-          <folding>
-            <element signature="e#3374#3412#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
+          <caret line="94" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+          <caret line="28" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226">
+          <caret line="29" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2159">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2159">
+          <caret line="14" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833">
+          <caret line="15" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+    <entry file="file://$PROJECT_DIR$/resources/data/data.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="123" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1241" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1241">
+          <caret line="53" column="123" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836">
+          <caret line="42" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1377">
+          <caret line="21" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="63" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4318">
+          <caret line="126" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="38" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
-          <folding>
-            <element signature="e#3374#3412#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1989">
+          <caret line="94" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="918">
+          <caret line="28" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="13226">
+          <caret line="29" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/CityLocale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="585" selection-end="585" vertical-scroll-proportion="0.38946164" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.38946164" vertical-offset="0" max-vertical-offset="0">
+          <caret line="20" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/LocaleISOData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="32" selection-start="12582" selection-end="12587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="337" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/SimpleTimeZone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1106" column="16" selection-start="47409" selection-end="47409" vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0">
+          <caret line="1106" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="638" column="28" selection-start="24386" selection-end="24386" vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1666" />
+        <state vertical-scroll-proportion="0.019473081" vertical-offset="0" max-vertical-offset="0">
+          <caret line="638" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="22" selection-start="14308" selection-end="14308" vertical-scroll-proportion="0.33333334" vertical-offset="4216" max-vertical-offset="46903" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="4216" max-vertical-offset="46903">
+          <caret line="309" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="949" column="18" selection-start="38410" selection-end="38410" vertical-scroll-proportion="0.0" vertical-offset="15298" max-vertical-offset="18513" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15298" max-vertical-offset="18513">
+          <caret line="949" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="29" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/HebrewDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="81" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.0" vertical-offset="2164" max-vertical-offset="12716" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2164" max-vertical-offset="12716">
+          <caret line="138" column="81" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/GeneratorParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="21" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2008" column="18" selection-start="79579" selection-end="79579" vertical-scroll-proportion="0.0" vertical-offset="33445" max-vertical-offset="52292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="25" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="952">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="33445" max-vertical-offset="52292">
+          <caret line="2008" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artifacts/Yahadut/send.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="86" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/locations.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/files/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="70" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="365">
+          <caret line="0" column="86" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/MusarMitzvotGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="413" selection-end="413" vertical-scroll-proportion="0.09637188" vertical-offset="0" max-vertical-offset="882">
-          <folding />
+        <state vertical-scroll-proportion="0.09637188" vertical-offset="0" max-vertical-offset="882">
+          <caret line="14" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+    <entry file="file://$PROJECT_DIR$/resources/config/mail.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="45" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.84310347" vertical-offset="89" max-vertical-offset="969">
-          <folding />
+        <state vertical-scroll-proportion="0.2728732" vertical-offset="0" max-vertical-offset="623">
+          <caret line="10" column="136" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1666">
+          <caret line="84" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config/locations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08292683" vertical-offset="0" max-vertical-offset="410">
+          <caret line="2" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="930" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
+        <state vertical-scroll-proportion="0.39660656" vertical-offset="0" max-vertical-offset="986">
+          <caret line="22" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/files/data.properties">
+    <entry file="jar://$PROJECT_DIR$/lib/mail.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1241">
-          <folding />
+        <state vertical-scroll-proportion="0.252386" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="14" column="82" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+    <entry file="jar://$PROJECT_DIR$/lib/zmanim-1.2.1.jar!/net/sourceforge/zmanim/util/JSuntimeCalculator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="4420">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2037037" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="12" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/hebrewDate/CalendarUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1904">
-          <folding>
-            <element signature="e#3374#3412#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.17335473" vertical-offset="6296" max-vertical-offset="6919">
+          <caret line="364" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/commons-lang3-3.1-sources.jar!/org/apache/commons/lang3/math/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2795031" vertical-offset="7079" max-vertical-offset="23834">
+          <caret line="445" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebrewDate/CalendarDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24068323" vertical-offset="427" max-vertical-offset="1071">
+          <caret line="16" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/suntimes/SunTimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21428572" vertical-offset="6411" max-vertical-offset="7055">
+          <caret line="369" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/commons-lang3-3.1-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42701864" vertical-offset="9823" max-vertical-offset="30872">
+          <caret line="615" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35869566" vertical-offset="534" max-vertical-offset="1224">
+          <caret line="45" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0031055901" vertical-offset="274" max-vertical-offset="918">
+          <caret line="26" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1700">
+        <state vertical-scroll-proportion="0.10559006" vertical-offset="493" max-vertical-offset="1700">
+          <caret line="33" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/mail.properties">
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="137" selection-end="137" vertical-scroll-proportion="0.13421053" vertical-offset="0" max-vertical-offset="380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="969">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/send.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="0" column="78" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="4471">
+          <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1972">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2261">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2448">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="76" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.3773913" vertical-offset="531" max-vertical-offset="1411">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1683">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1258">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1598">
+          <caret line="70" column="201" selection-start-line="70" selection-start-column="114" selection-end-line="70" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7258065" vertical-offset="43" max-vertical-offset="663">
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1463,7 +1520,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>CommandLine:jar</last-edited>
+          <last-edited>yahadut:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
