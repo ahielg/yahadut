@@ -112,7 +112,7 @@ public class Main {
         MailGeneratorProperties mailGeneratorProperties = new MailGeneratorProperties(false, true, false, instance);
         String[] mailAddresses = MailSender.getMailAddresses(SEND_MAIL_TO_HALACHA);
         String subject = sendMail(hodaot, mailGeneratorProperties, mailAddresses, pass);
-        System.out.println("* Halacha Sent! [" + subject + "]");
+        System.out.println("* Halacha Sent! [" + subject + ']');
     }
 
     private static void sendAll(Calendar instance, String hodaot, String pass) throws Exception {
@@ -120,7 +120,7 @@ public class Main {
         String[] mailAddresses = MailSender.getMailAddresses(SEND_MAIL_TO);
 
         String subject = sendMail(hodaot, mailGeneratorProperties, mailAddresses, pass);
-        System.out.println("* Ayelet hashahr Sent! [" + subject + "]");
+        System.out.println("* Ayelet hashahr Sent! [" + subject + ']');
     }
 
 

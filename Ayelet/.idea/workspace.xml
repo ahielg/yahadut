@@ -15,10 +15,11 @@
     <option name="PASSWORD" />
     <option name="REMEMBER_ME" value="true" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
-    <option name="TEST_STATUS_BUILD_TYPE_IDS" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" />
     <option name="DUPLICATES_BUILD_TYPE_IDS" />
     <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
     <option name="ARTIFACTS_BUILD_TYPE_IDS" />
     <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
     <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
@@ -42,11 +43,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/data/data.properties" afterPath="$PROJECT_DIR$/resources/data/data.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="4341f79b-9ae3-4e71-bc35-7e76bc9f7bfd" name="ignore" comment="ignore" />
     <ignored path="yahadut.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/artifacts/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +76,43 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties converted="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" line="81" class="ayeleyHashahar.generator.generators.HolidaysGenerator" package="ayeleyHashahar.generator.generators">
         <option name="ENABLED" value="true" />
@@ -160,43 +205,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
@@ -210,57 +218,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HalachaGenerator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HalachaGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+            <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="1598">
               <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VetenChelkenu.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HolidaysGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1513">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParashaGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1666">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VetenChelkenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="36" column="78" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="data.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/data/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45210084" vertical-offset="360" max-vertical-offset="1258">
-              <caret line="37" column="66" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1258">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MailSenderCons.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="969">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="2448">
-              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2261">
+              <caret line="104" column="85" selection-start-line="104" selection-start-column="82" selection-end-line="104" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RegularHebrewDate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.269103" vertical-offset="297" max-vertical-offset="12903">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1904">
@@ -270,21 +298,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MailSender.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MailSender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1683">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1496">
               <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextGeneratorMerger.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TextGeneratorMerger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="4471">
-              <caret line="117" column="82" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="4233">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -298,36 +326,15 @@
     </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/parameters/MailGeneratorProperties.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java" />
-        <option value="$PROJECT_DIR$/src/hebDate/CandleLighting.java" />
-        <option value="$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/FileUtils.java" />
-        <option value="$PROJECT_DIR$/AndApp/src/com/ahiel/kodesh/hebDate/CandleLighting.java" />
-        <option value="$PROJECT_DIR$/resources/files/data.properties" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/resource/mail.properties" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" />
-        <option value="$PROJECT_DIR$/resources/config/mail.properties" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/UpdateLines.java" />
-        <option value="$PROJECT_DIR$/lib/mail.jar!/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/hebrewDate/CalendarUtils.java" />
-        <option value="$PROJECT_DIR$/src/hebrewDate/CalendarDate.java" />
-        <option value="$PROJECT_DIR$/src/hebDate/suntimes/SunTimes.java" />
-        <option value="$PROJECT_DIR$/src/hebDate/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/util/LocalEncrypter.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java" />
-        <option value="$PROJECT_DIR$/resources/send.bat" />
-        <option value="$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java" />
         <option value="$PROJECT_DIR$/resources/data/data.properties" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
@@ -336,7 +343,7 @@
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -385,16 +392,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommandLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -418,7 +421,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -428,35 +431,25 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yahadut" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yahadut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandLine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -522,7 +515,7 @@
       <recent name="D:\Projects\yahadut\resources\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.UpdateLines">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -630,14 +623,14 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="ayeleyHashahar.util.UpdateLines" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="15 7" />
+      <option name="PROGRAM_PARAMETERS" value="2 43" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CommandLine" />
+      <module name="yahadut" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -650,25 +643,25 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -717,47 +710,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.HolidaysGenerator" />
@@ -767,8 +719,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UpdateLines" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UpdateLines" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
         <item index="2" class="java.lang.String" itemvalue="Application.LocalEncrypter" />
         <item index="3" class="java.lang.String" itemvalue="Application.MailSender" />
         <item index="4" class="java.lang.String" itemvalue="Application.HolidaysGenerator" />
@@ -792,6 +744,10 @@
           <option name="myVcsRoot" value="D:\Projects\yahadut" />
           <option name="myCopyRoot" value="D:\Projects\yahadut" />
         </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\yahadut\.idea" />
+          <option name="myCopyRoot" value="D:\Projects\yahadut\.idea" />
+        </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
@@ -808,6 +764,7 @@
       <changelist id="0ec3b39a-7722-41ad-a956-1e4a78810c1d" name="Default" comment="" />
       <changelist id="4341f79b-9ae3-4e71-bc35-7e76bc9f7bfd" name="ignore" comment="" />
       <created>1352754079142</created>
+      <option name="number" value="Default" />
       <updated>1354605937280</updated>
       <workItem from="1389790975500" duration="166000" />
       <workItem from="1391424621693" duration="1369000" />
@@ -827,333 +784,480 @@
       <workItem from="1398926798935" duration="254000" />
       <workItem from="1400999062317" duration="345000" />
       <workItem from="1400999415568" duration="1519000" />
-      <workItem from="1402812653178" duration="40000" />
+      <workItem from="1402812653178" duration="1000000" />
+      <workItem from="1410786825360" duration="472000" />
+      <workItem from="1413729976531" duration="200000" />
+      <workItem from="1416206278325" duration="649000" />
+      <workItem from="1416211583045" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1352790485101</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1352790485101</updated>
     </task>
     <task id="LOCAL-00002" summary="a">
       <created>1352790735100</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1352790735100</updated>
     </task>
     <task id="LOCAL-00003" summary="a">
       <created>1352795080100</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1352795080100</updated>
     </task>
     <task id="LOCAL-00004" summary="add parasha line num to properties">
       <created>1352820646100</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1352820646100</updated>
     </task>
     <task id="LOCAL-00005" summary="add parasha line num to properties">
       <created>1352880099100</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1352880099100</updated>
     </task>
     <task id="LOCAL-00006" summary="add parasha line num to properties">
       <created>1352885179100</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1352885179100</updated>
     </task>
     <task id="LOCAL-00007" summary="a">
       <created>1352885392100</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1352885392100</updated>
     </task>
     <task id="LOCAL-00008" summary="a">
       <created>1352965656100</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1352965656100</updated>
     </task>
     <task id="LOCAL-00009" summary="a">
       <created>1352984611100</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1352984611100</updated>
     </task>
     <task id="LOCAL-00010" summary="a">
       <created>1352990085100</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1352990085100</updated>
     </task>
     <task id="LOCAL-00011" summary="add">
       <created>1352990740100</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1352990740100</updated>
     </task>
     <task id="LOCAL-00012" summary="add">
       <created>1353224102103</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1353224102103</updated>
     </task>
     <task id="LOCAL-00013" summary="add">
       <created>1353229942100</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1353229942100</updated>
     </task>
     <task id="LOCAL-00014" summary="add">
       <created>1353249227101</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1353249227101</updated>
     </task>
     <task id="LOCAL-00015" summary="add">
       <created>1353254666100</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1353254666100</updated>
     </task>
     <task id="LOCAL-00016" summary="add">
       <created>1353254790101</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1353254790101</updated>
     </task>
     <task id="LOCAL-00017" summary="add">
       <created>1353255280100</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1353255280100</updated>
     </task>
     <task id="LOCAL-00018" summary="add">
       <created>1353306417100</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1353306417100</updated>
     </task>
     <task id="LOCAL-00019" summary="add">
       <created>1353314275117</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1353314275117</updated>
     </task>
     <task id="LOCAL-00020" summary="add">
       <created>1353314354100</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1353314354100</updated>
     </task>
     <task id="LOCAL-00021" summary="add">
       <created>1353330311115</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1353330311115</updated>
     </task>
     <task id="LOCAL-00022" summary="add">
       <created>1353392293100</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1353392293100</updated>
     </task>
     <task id="LOCAL-00023" summary="add">
       <created>1353393337100</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1353393337100</updated>
     </task>
     <task id="LOCAL-00024" summary="add">
       <created>1353406909103</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1353406909103</updated>
     </task>
     <task id="LOCAL-00025" summary="add">
       <created>1353479924100</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1353479924100</updated>
     </task>
     <task id="LOCAL-00026" summary="add">
       <created>1353496825100</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1353496825100</updated>
     </task>
     <task id="LOCAL-00027" summary="add">
       <created>1353828887100</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1353828887100</updated>
     </task>
     <task id="LOCAL-00028" summary="add">
       <created>1353830242101</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1353830242101</updated>
     </task>
     <task id="LOCAL-00029" summary="add">
       <created>1353912112101</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1353912112101</updated>
     </task>
     <task id="LOCAL-00030" summary="add">
       <created>1353925454100</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1353925454100</updated>
     </task>
     <task id="LOCAL-00031" summary="add">
       <created>1353925943100</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1353925943100</updated>
     </task>
     <task id="LOCAL-00032" summary="add">
       <created>1354088586169</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1354088586169</updated>
     </task>
     <task id="LOCAL-00033" summary="add">
       <created>1354178078100</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1354178078100</updated>
     </task>
     <task id="LOCAL-00034" summary="add">
       <created>1354178152100</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
       <updated>1354178152100</updated>
     </task>
     <task id="LOCAL-00035" summary="add">
       <created>1354429212100</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
       <updated>1354429212100</updated>
     </task>
     <task id="LOCAL-00036" summary="add">
       <created>1354518159257</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
       <updated>1354518159257</updated>
     </task>
     <task id="LOCAL-00037" summary="add">
       <created>1354604553101</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
       <updated>1354604553101</updated>
     </task>
     <task id="LOCAL-00038" summary="add">
       <created>1354609034100</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
       <updated>1354609034100</updated>
     </task>
     <task id="LOCAL-00039" summary="add">
       <created>1354691618100</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
       <updated>1354691618100</updated>
     </task>
     <task id="LOCAL-00040" summary="add">
       <created>1354706545121</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
       <updated>1354706545121</updated>
     </task>
     <task id="LOCAL-00041" summary="add">
       <created>1354779467101</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
       <updated>1354779467101</updated>
     </task>
     <task id="LOCAL-00042" summary="add">
       <created>1354781471105</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
       <updated>1354781471105</updated>
     </task>
     <task id="LOCAL-00043" summary="addaaa">
       <created>1355033321102</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
       <updated>1355033321102</updated>
     </task>
     <task id="LOCAL-00044" summary="addaaa">
       <created>1355033876100</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
       <updated>1355033876100</updated>
     </task>
     <task id="LOCAL-00045" summary="addaaa">
       <created>1355036902100</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
       <updated>1355036902100</updated>
     </task>
     <task id="LOCAL-00046" summary="addaaa">
       <created>1355120648100</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
       <updated>1355120648100</updated>
     </task>
     <task id="LOCAL-00047" summary="addaaa">
       <created>1355206151100</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
       <updated>1355206151100</updated>
     </task>
     <task id="LOCAL-00048" summary="addaaa">
       <created>1355292397101</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
       <updated>1355292397101</updated>
     </task>
     <task id="LOCAL-00049" summary="addaaa">
       <created>1355293199100</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
       <updated>1355293199100</updated>
     </task>
     <task id="LOCAL-00050" summary="addaaa">
       <created>1355379928101</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
       <updated>1355379928101</updated>
     </task>
     <task id="LOCAL-00051" summary="addaaa">
       <created>1355638224100</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
       <updated>1355638224100</updated>
     </task>
     <task id="LOCAL-00052" summary="addaaa">
       <created>1355727921100</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
       <updated>1355727921100</updated>
     </task>
     <task id="LOCAL-00053" summary="addaaa">
       <created>1355995792100</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
       <updated>1355995792100</updated>
     </task>
     <task id="LOCAL-00054" summary="addaaa">
       <created>1355996828100</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
       <updated>1355996828100</updated>
     </task>
     <task id="LOCAL-00055" summary="addaaa">
       <created>1356255398100</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
       <updated>1356255398100</updated>
     </task>
     <task id="LOCAL-00056" summary="addaaa">
       <created>1356593549103</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
       <updated>1356593549104</updated>
     </task>
     <task id="LOCAL-00057" summary="addaaa">
       <created>1356593894101</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
       <updated>1356593894101</updated>
     </task>
     <task id="LOCAL-00058" summary="addaaa">
       <created>1356594326100</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1356594326100</updated>
     </task>
     <task id="LOCAL-00059" summary="addaaa">
       <created>1366705650100</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1366705650100</updated>
     </task>
     <task id="LOCAL-00060" summary="addaaa">
       <created>1366705815100</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1366705815100</updated>
     </task>
     <task id="LOCAL-00061">
       <created>1392620103100</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1392620103100</updated>
     </task>
     <task id="LOCAL-00062">
       <created>1392620679100</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1392620679100</updated>
     </task>
     <task id="LOCAL-00063">
       <created>1392621055101</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1392621055101</updated>
     </task>
     <task id="LOCAL-00064">
       <created>1392621588100</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1392621588100</updated>
     </task>
     <task id="LOCAL-00065">
       <created>1392621871100</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
       <updated>1392621871100</updated>
     </task>
     <task id="LOCAL-00066">
       <created>1392623012100</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
       <updated>1392623012100</updated>
     </task>
     <task id="LOCAL-00067">
       <created>1392806202100</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
       <updated>1392806202100</updated>
     </task>
     <task id="LOCAL-00068">
       <created>1392806302100</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
       <updated>1392806302100</updated>
     </task>
     <task id="LOCAL-00069">
       <created>1393934405122</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
       <updated>1393934405122</updated>
     </task>
     <task id="LOCAL-00070">
       <created>1398926877152</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
       <updated>1398926877152</updated>
     </task>
     <task id="LOCAL-00071">
       <created>1400999496535</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
       <updated>1400999496535</updated>
     </task>
     <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25035000" />
+    <option name="totallyTimeSpent" value="27371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.58266455" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5372973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264865" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.58615386" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31858873" sideWeight="0.6" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32642487" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.41573033" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3477589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894042" sideWeight="0.67296994" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6495536" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6495536" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Data Sources" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6707589" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31858873" sideWeight="0.6" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297155" sideWeight="0.41384616" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TeamCity" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3217483" sideWeight="0.45415318" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34054053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6495536" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53678757" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6707589" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34715027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6495536" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3217483" sideWeight="0.45415318" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894042" sideWeight="0.67296994" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1226,19 +1330,36 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1819">
-          <caret line="70" column="201" selection-start-line="70" selection-start-column="114" selection-end-line="70" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="663">
@@ -1407,13 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="29" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hebDate/HebrewDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2164" max-vertical-offset="12716">
@@ -1453,13 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2728732" vertical-offset="0" max-vertical-offset="623">
           <caret line="10" column="136" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1666">
-          <caret line="84" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1556,34 +1663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="4199">
-          <caret line="117" column="82" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1496">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="2448">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/VetenChelkenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="36" column="78" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1596,18 +1679,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/sender/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1496">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/TextGeneratorMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1437" max-vertical-offset="4199">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HolidaysGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1513">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/HalachaGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="1598">
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1598">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1666">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/data/data.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45210084" vertical-offset="360" max-vertical-offset="1258">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1298" max-vertical-offset="2261">
+          <caret line="104" column="85" selection-start-line="104" selection-start-column="82" selection-end-line="104" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hebDate/RegularHebrewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.269103" vertical-offset="297" max-vertical-offset="12903">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1704,4 +1835,3 @@
     </states>
   </component>
 </project>
-
