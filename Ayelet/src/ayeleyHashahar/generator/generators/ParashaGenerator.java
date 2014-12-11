@@ -26,7 +26,7 @@ public class ParashaGenerator implements TextGenerator {
     public static boolean generalIsToCheck(MailGeneratorProperties mailGeneratorProperties) {
         RegularHebrewDate date = new RegularHebrewDate(mailGeneratorProperties.getDate());
         return mailGeneratorProperties.isParasha() && (RegularHebrewDate.getNextParashaNumOnShabat(mailGeneratorProperties.getDate()) != -1)
-               &&/*not 9 Be'av*/ (!"תשעה באב".equals(date.getHoliday()));
+                &&/*not 9 Be'av*/ (!"תשעה באב".equals(date.getHoliday()));
     }
 
     @Override
@@ -44,7 +44,7 @@ public class ParashaGenerator implements TextGenerator {
         long parashaLine = params.getParashaLineNum();
         if (parashaNum > 52) {
             parasha = RegularHebrewDate.getParasha(parashaNum);
-            int rand = (int) (Math.random()*2);
+            int rand = (int) (Math.random() * 2);
             parasha = parasha.split("-")[rand];
             parashaNum = RegularHebrewDate.getNumFromParasha(parasha);
             System.out.println("Chosen today parasha pninim: " + parasha);
@@ -61,11 +61,12 @@ public class ParashaGenerator implements TextGenerator {
         }
 
         long diff = parashaLine - lineNum;
-        if (diff > 0 && diff < 1000) { // setting lineNum = oldLineNum
-           // FileUtils.gotoLineInFile(in, diff);
+        if (diff > 0 && diff < 3000) { // setting lineNum = oldLineNum
+            // FileUtils.gotoLineInFile(in, diff);
             line = "";
             for (int i = 0; i < diff && !nextParasha(line); i++) {
                 line = in.readLine().trim();
+                lineNum++;
             }
             if (nextParasha(line)) {//if the parasha ended
                 try {
