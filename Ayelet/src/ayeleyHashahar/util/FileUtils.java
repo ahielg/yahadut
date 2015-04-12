@@ -52,8 +52,6 @@ public class FileUtils {
                 MailSenderCons.dynamic_properties.setProperty(MailSenderCons.IS_THURSDAY_LAST_DAY,
                         MailSenderCons.properties.getProperty(MailSenderCons.IS_THURSDAY_LAST_DAY));
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

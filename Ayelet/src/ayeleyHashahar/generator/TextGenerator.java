@@ -11,7 +11,7 @@ import java.io.IOException;
  * Time: 23:33
  */
 public interface TextGenerator {
-    public boolean isToCheck(MailGeneratorProperties mailGeneratorProperties);
+    boolean isToCheck(MailGeneratorProperties mailGeneratorProperties);
 
-    public void generateText(GeneratorParameters params, MailGeneratorProperties mailGeneratorProperties) throws IOException;
+    void generateText(GeneratorParameters params, MailGeneratorProperties mailGeneratorProperties) throws IOException;
 }
