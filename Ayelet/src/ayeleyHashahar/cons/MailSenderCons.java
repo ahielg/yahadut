@@ -9,7 +9,7 @@ import java.util.Properties;
  */
 public class MailSenderCons {
 
-    public static final String HALACHA_REF = "?????? ???? ???? \"???? ?????\" ??????? ?? ??? ????? ??-?? ????\"?.\n";
+    public static final String HALACHA_REF = "ההלכות מתוך הספר \"הלכה יומית\" בעריכתו של הרב ליאור בר-דע שליט\"א.";
     public static final String ADMIN_SITE = "https://sites.google.com/site/ahielg/system/app/pages/admin/attachments";
     public static final String GROUP_SITE = " https://groups.google.com/d/forum/ahielg?hl=iw";
     public static final String MAIL_ADDRESS = "ahielg@googlegroups.com";
