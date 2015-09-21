@@ -21,7 +21,7 @@ import java.util.HashSet;
  */
 public class TextGeneratorMerger {
     private static TextGeneratorMerger instance = new TextGeneratorMerger();
-    private static String AYELET_HASHACHAR = "????? ????";
+    private static String AYELET_HASHACHAR = "איילת השחר";
     HashSet<TextGenerator> textGenerators;
 
 
@@ -92,7 +92,7 @@ public class TextGeneratorMerger {
         String page = FileUtils.fileToString(fileName);
 
         String holiday = regularHebrewDate.getHoliday();
-        if (holiday != null && !holiday.isEmpty()) {
+        if (!"".equals(holiday)) {
             holiday = "<span style=\"color:RED\">" + holiday + "</span>, ";
         }
 
@@ -100,7 +100,7 @@ public class TextGeneratorMerger {
 
         CalendarDate hebCalDate = CalendarUtils.gregorian2Jewish(mailGeneratorProperties.getDate());
         if ((hebCalDate.getDay() == 1) || (hebCalDate.getDay() == 30)) {
-            hodaot = "???? ??? ??????. ";
+            hodaot = "חודש טוב ומבורך. ";
         }
 
 
@@ -108,7 +108,7 @@ public class TextGeneratorMerger {
                 mailGeneratorProperties.getParashaTextToSend().length() < 100 &&
                 mailGeneratorProperties.getHolidayTextToSend().length() < 100 &&
                 mailGeneratorProperties.getHalachaTextToSend().length() < 100) {
-            System.out.println("Noting to send...");
+            System.out.println("אין מה לשלוח");
             System.out.println("holiday: " + mailGeneratorProperties.getHolidayTextToSend());
             System.out.println("halacha: " + mailGeneratorProperties.getHalachaTextToSend());
             System.out.println("parasha: " + mailGeneratorProperties.getParashaTextToSend());
@@ -120,7 +120,7 @@ public class TextGeneratorMerger {
             if (hodaot != null && hodaot.equals(mailGeneratorProperties.getHodaot())) {
                 hodaot = "";
             }
-            hodaot += ' ' + RegularHebrewDate.getCandleAndHavdala();
+            hodaot += " " + RegularHebrewDate.getCandleAndHavdala();
         }
 
 
@@ -134,7 +134,7 @@ public class TextGeneratorMerger {
             if (mailGeneratorProperties.getHolidayTextToSend().length() < 100) {
                 //handle halacha only mail
                 if (mailGeneratorProperties.getHalachaTextToSend().length() < 200) {
-                    System.out.println("Noting to send..");
+                    System.out.println("אין מה לשלוח");
                     System.out.println("halacha: " + mailGeneratorProperties.getHalachaTextToSend());
                 }
 
@@ -143,9 +143,9 @@ public class TextGeneratorMerger {
                 mailGeneratorProperties.setKoteretParasha(mailGeneratorProperties.getKoteretHalachaYomit());
                 mailGeneratorProperties.setKoteretHalachaYomit("");
                 mailGeneratorProperties.setParashaTextToSend(mailGeneratorProperties.getHalachaTextToSend());
-                mailGeneratorProperties.setHalachaTextToSend("?????? ???? ???? \"???? ????? - ??? ?'\" ??????? ?? ??? ????? ??-?? ????\"?." +
+                mailGeneratorProperties.setHalachaTextToSend("ההלכות מתוך הספר \"הלכה יומית - שנה ב'\" בעריכתו של הרב ליאור בר-דע שליט\"א." +
                         "<BR/>" +
-                        "?? ???? ???? ????? ???? ????? ???????? 02-9973696 ?? 03-6748786");
+                        "את הספר הלכה יומית ניתן להשיג בטלפונים 02-9973696 או 03-6748786");
             }
         } else {
             hebDate = "<a href=\"http://www.yeshiva.org.il/calendar/\" style=\"text-decoration:none;color:#999\">" + hebDate + "</a>";
@@ -153,7 +153,6 @@ public class TextGeneratorMerger {
 
         int templateLength = page.length();
 
-        //noinspection DynamicRegexReplaceableByCompiledPattern
         String completePage = page.replace("_KOTERET_PARASHA_", mailGeneratorProperties.getKoteretParasha())
                 .replace("_KOTERET_HALACHA_", mailGeneratorProperties.getKoteretHalachaYomit())
                 .replace("_KOTERET_MUSAR_", mailGeneratorProperties.getKoteretMusar())
@@ -165,7 +164,7 @@ public class TextGeneratorMerger {
                 .replace("_HODAOT_", hodaot);
 
         if (completePage.length() < templateLength + 200) {
-            System.out.println("??? ???? ?????? ????? ??? ???? ????.");
+            System.out.println("חלה תקלה בשליחת המייל אנא בדוק שנית.");
             System.out.println("completePage = " + completePage);
         }
 
@@ -191,7 +190,7 @@ public class TextGeneratorMerger {
                 subject += " ו";
             }
 
-            subject += RegularHebrewDate.getParashaAsString(parashaBaa) + " - " + "??? " + RegularHebrewDate.getDayInWord(mailGeneratorProperties.getDate());
+            subject += RegularHebrewDate.getParashaAsString(parashaBaa) + " - " + "יום " + RegularHebrewDate.getDayInWord(mailGeneratorProperties.getDate());
         } else if (nextHolidayNum != -1 && !isHoliday) {
             subject += RegularHebrewDate.getImportantHolidayByNum(nextHolidayNum);
         } else if (!isHoliday) {
@@ -210,11 +209,11 @@ public class TextGeneratorMerger {
         RegularHebrewDate regularHebrewDate = new RegularHebrewDate(mailGeneratorProperties.getDate());
 
         if (regularHebrewDate.isShabatonHoliday()) {
-            throw new IllegalStateException("Happy holiday, nothing to send");
+            throw new IllegalStateException("חג שמח, אין לשלוח הודעות");
         }
 
         if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) {
-            throw new IllegalStateException("Good shabat, nothing to send");
+            throw new IllegalStateException("שבת שלום, אין לשלוח הודעות");
         }
 
         boolean isThursdayLastDay = false;
@@ -224,7 +223,7 @@ public class TextGeneratorMerger {
         }
 
         if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == Calendar.FRIDAY && isThursdayLastDay) {
-            throw new IllegalStateException("No messages in friday is setted.");
+            throw new IllegalStateException("מוגדר לא לשלוח הודעות בימי שישי");
         }
 
 

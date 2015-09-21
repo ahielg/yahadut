@@ -44,7 +44,6 @@ public class MusarLashonGenerator implements TextGenerator {
                     break;
                 }
             } else {
-                //noinspection DynamicRegexReplaceableByCompiledPattern
                 line = line.replace("AA", "<i>").replace("CC", "<i>").replace("BB", "</i>").replace("DD", "</i>").replace("[[", "<b>").replace("]]", "</b>");
                 if ((line.charAt(0) == '#') || (line.charAt(0) == '@')) {
                     fullString.append("<b>").append(line.substring(1)).append("</b>");

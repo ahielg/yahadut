@@ -12,16 +12,16 @@ public class MailGeneratorProperties {
     private final boolean musar;
     private final boolean halacha;
     private final Calendar date;
-    private String koteretParasha = "??? ?? ???? ???";
-    private String koteretHalachaYomit = "?? ????? ?????";
-    private String koteretMusar = "??? ???";
+    private String koteretParasha = "טוב לי תורת פיך";
+    private String koteretHalachaYomit = "כל השונה הלכות";
+    private String koteretMusar = "שמע בני";
     private boolean parasha;
     private String vetenLink;
     private String parashaTextToSend = "";
     private String halachaTextToSend = "";
     private String musarTextToSend = "";
     private String holidayTextToSend = "";
-    private String hodaot = "??? ???? ???? ?????? ??????";
+    private String hodaot = "דבר תורה יומי לקירוב הגאולה";
 
     public MailGeneratorProperties(boolean musar, boolean halacha, boolean parasha, Calendar date) {
         this.musar = musar;

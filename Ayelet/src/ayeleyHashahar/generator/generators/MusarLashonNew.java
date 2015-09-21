@@ -23,9 +23,9 @@ public class MusarLashonNew implements TextGenerator {
     private static String parseHalachaDate(String dateToParse) {
         String[] todayArray = dateToParse.split(" ");
 
-        dateToParse = todayArray[0] + ' ' + todayArray[1];
+        dateToParse = todayArray[0] + " " + todayArray[1];
         if (todayArray.length > 3) {
-            dateToParse = dateToParse + ' ' + todayArray[2];
+            dateToParse = dateToParse + " " + todayArray[2];
         }
         return dateToParse;
     }
