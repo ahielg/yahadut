@@ -9,57 +9,25 @@ import java.util.Calendar;
  */
 @SuppressWarnings("UnusedDeclaration")
 public class MailGeneratorProperties {
-    private String koteretParasha = "טוב לי תורת פיך";
-    private String koteretHalachaYomit = "כל השונה הלכות";
-    private String koteretMusar = "שמע בני";
-
     private final boolean musar;
     private final boolean halacha;
+    private final Calendar date;
+    private String koteretParasha = "??? ?? ???? ???";
+    private String koteretHalachaYomit = "?? ????? ?????";
+    private String koteretMusar = "??? ???";
     private boolean parasha;
-
     private String vetenLink;
-
     private String parashaTextToSend = "";
     private String halachaTextToSend = "";
     private String musarTextToSend = "";
     private String holidayTextToSend = "";
-    private String hodaot = "דבר תורה יומי לקירוב הגאולה";
-
-    private final Calendar date;
+    private String hodaot = "??? ???? ???? ?????? ??????";
 
     public MailGeneratorProperties(boolean musar, boolean halacha, boolean parasha, Calendar date) {
         this.musar = musar;
         this.halacha = halacha;
         this.parasha = parasha;
         this.date = date;
-    }
-
-    public void setParasha(boolean parasha) {
-        this.parasha = parasha;
-    }
-
-    public void setParashaTextToSend(String parashaTextToSend) {
-        this.parashaTextToSend = parashaTextToSend;
-    }
-
-    public void setHalachaTextToSend(String halachaTextToSend) {
-        this.halachaTextToSend = halachaTextToSend;
-    }
-
-    public void setMusarTextToSend(String musarTextToSend) {
-        this.musarTextToSend = musarTextToSend;
-    }
-
-    public void setKoteretParasha(String koteretParasha) {
-        this.koteretParasha = koteretParasha;
-    }
-
-    public void setKoteretHalachaYomit(String koteretHalachaYomit) {
-        this.koteretHalachaYomit = koteretHalachaYomit;
-    }
-
-    public void setKoteretMusar(String koteretMusar) {
-        this.koteretMusar = koteretMusar;
     }
 
     public String getHolidayTextToSend() {
@@ -74,12 +42,24 @@ public class MailGeneratorProperties {
         return koteretParasha;
     }
 
+    public void setKoteretParasha(String koteretParasha) {
+        this.koteretParasha = koteretParasha;
+    }
+
     public String getKoteretHalachaYomit() {
         return koteretHalachaYomit;
     }
 
+    public void setKoteretHalachaYomit(String koteretHalachaYomit) {
+        this.koteretHalachaYomit = koteretHalachaYomit;
+    }
+
     public String getKoteretMusar() {
         return koteretMusar;
+    }
+
+    public void setKoteretMusar(String koteretMusar) {
+        this.koteretMusar = koteretMusar;
     }
 
     public boolean isMusar() {
@@ -94,16 +74,32 @@ public class MailGeneratorProperties {
         return parasha;
     }
 
+    public void setParasha(boolean parasha) {
+        this.parasha = parasha;
+    }
+
     public String getParashaTextToSend() {
         return parashaTextToSend;
+    }
+
+    public void setParashaTextToSend(String parashaTextToSend) {
+        this.parashaTextToSend = parashaTextToSend;
     }
 
     public String getHalachaTextToSend() {
         return halachaTextToSend;
     }
 
+    public void setHalachaTextToSend(String halachaTextToSend) {
+        this.halachaTextToSend = halachaTextToSend;
+    }
+
     public String getMusarTextToSend() {
         return musarTextToSend;
+    }
+
+    public void setMusarTextToSend(String musarTextToSend) {
+        this.musarTextToSend = musarTextToSend;
     }
 
     public Calendar getDate() {

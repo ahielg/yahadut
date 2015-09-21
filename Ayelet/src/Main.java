@@ -28,8 +28,8 @@ public class Main {
         if (1==1) return;*/
 
         //args = new String[]{ALL_PARAM};
-        //args = new String[]{ALL_PARAM, MSG_PARAM, "לרפואת בנימין בן מאי נעימה"};
-        //args = new String[]{ALL_PARAM, MSG_PARAM, "מחפשים וורטים או סיפור חסידי לשבת ? אתם מוזמנים לבקר באתר : http://morbas.blogspot.co.il"};
+        //args = new String[]{ALL_PARAM, MSG_PARAM, "aaaa"};
+        //args = new String[]{ALL_PARAM, MSG_PARAM, "מfff : http://morbas.blogspot.co.il"};
         //args = new String[]{DEMO_PARAM};
 
         if (args.length != 0) {

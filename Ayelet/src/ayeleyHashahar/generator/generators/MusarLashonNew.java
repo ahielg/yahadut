@@ -20,6 +20,16 @@ import java.util.Calendar;
  * Time: 00:06
  */
 public class MusarLashonNew implements TextGenerator {
+    private static String parseHalachaDate(String dateToParse) {
+        String[] todayArray = dateToParse.split(" ");
+
+        dateToParse = todayArray[0] + ' ' + todayArray[1];
+        if (todayArray.length > 3) {
+            dateToParse = dateToParse + ' ' + todayArray[2];
+        }
+        return dateToParse;
+    }
+
     @Override
     public boolean isToCheck(MailGeneratorProperties mailGeneratorProperties) {
         return mailGeneratorProperties.isMusar();
@@ -74,16 +84,6 @@ public class MusarLashonNew implements TextGenerator {
             //}
         }
         mailGeneratorProperties.setHalachaTextToSend(fullString.toString());
-    }
-
-    private static String parseHalachaDate(String dateToParse) {
-        String[] todayArray = dateToParse.split(" ");
-
-        dateToParse = todayArray[0] + " " + todayArray[1];
-        if (todayArray.length > 3) {
-            dateToParse = dateToParse + " " + todayArray[2];
-        }
-        return dateToParse;
     }
 
 }

@@ -9,8 +9,7 @@ import java.util.Properties;
  */
 public class MailSenderCons {
 
-    public static Properties properties = new Properties();
-    public static final String HALACHA_REF = "ההלכות מתוך הספר \"הלכה יומית\" בעריכתו של הרב ליאור בר-דע שליט\"א.";
+    public static final String HALACHA_REF = "?????? ???? ???? \"???? ?????\" ??????? ?? ??? ????? ??-?? ????\"?.";
     public static final String ADMIN_SITE = "https://sites.google.com/site/ahielg/system/app/pages/admin/attachments";
     public static final String GROUP_SITE = " https://groups.google.com/d/forum/ahielg?hl=iw";
     public static final String MAIL_ADDRESS = "ahielg@googlegroups.com";
@@ -30,22 +29,21 @@ public class MailSenderCons {
     public static final String PARASHA_TOPIC_NUMBERS = "parashaTopicNumbers";
     public static final String DEFAULT_PROPERTIES_FILE_NAME = "defaultPropertiesFileName";
     public static final String IS_THURSDAY_LAST_DAY = "isThursdayLastDay";
-    /////////////////////////////////////////////////////////////////////////////////
-
-    public static Properties dynamic_properties = new Properties();
     public static final String SEND_MAIL_TO = "SendMailTo";
+    /////////////////////////////////////////////////////////////////////////////////
     public static final String SEND_MAIL_TO_HALACHA = "SendMailToHalacha";
     public static final String SEND_MAIL_TO_DEBUG = "SendMailTo_debug";
     public static final String MUSAR_LINE = "musarLine";
     public static final String PARASHA_LINE = "parashaLine";
     public static final String HOLIDAY_LINE = "holidayLine";
     public static final String HALACHA_LINE = "halachaLine";
-
     ////////////////////////////////////////////
     public static final String PASS = "-p";
     public static final String MSG_PARAM = "-msg";
     public static final String ALL_PARAM = "-all";
     public static final String DEMO_PARAM = "-demo";
     public static final String HALACHA_ONLY_PARAM = "-h";
+    public static Properties properties = new Properties();
+    public static Properties dynamic_properties = new Properties();
 
 }

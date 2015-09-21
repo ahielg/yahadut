@@ -57,7 +57,7 @@ public class MailSender {
             holiday += ", ";
         }
 
-        //message.setSubject("איילת השחר - " + holiday + RegularHebrewDate.getNextParsha());
+        //message.setSubject("????? ???? - " + holiday + RegularHebrewDate.getNextParsha());
         message.setSubject(subject);
 
         message.setText(body);

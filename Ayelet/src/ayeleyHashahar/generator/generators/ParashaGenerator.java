@@ -18,15 +18,19 @@ import java.io.IOException;
  * Time: 23:37
  */
 public class ParashaGenerator implements TextGenerator {
-    @Override
-    public boolean isToCheck(MailGeneratorProperties mailGeneratorProperties) {
-        return generalIsToCheck(mailGeneratorProperties);
-    }
-
     public static boolean generalIsToCheck(MailGeneratorProperties mailGeneratorProperties) {
         RegularHebrewDate date = new RegularHebrewDate(mailGeneratorProperties.getDate());
         return mailGeneratorProperties.isParasha() && (RegularHebrewDate.getNextParashaNumOnShabat(mailGeneratorProperties.getDate()) != -1)
-                &&/*not 9 Be'av*/ (!"תשעה באב".equals(date.getHoliday()));
+                &&/*not 9 Be'av*/ (!"???? ???".equals(date.getHoliday()));
+    }
+
+    private static boolean nextParasha(String line) {
+        return (line.trim().startsWith("???? ") && line.length() < 100);
+    }
+
+    @Override
+    public boolean isToCheck(MailGeneratorProperties mailGeneratorProperties) {
+        return generalIsToCheck(mailGeneratorProperties);
     }
 
     @Override
@@ -121,9 +125,5 @@ public class ParashaGenerator implements TextGenerator {
         } catch (IOException ignored) {
         }
         mailGeneratorProperties.setParashaTextToSend(fullString.toString());
-    }
-
-    private static boolean nextParasha(String line) {
-        return (line.trim().startsWith("פרשת ") && line.length() < 100);
     }
 }

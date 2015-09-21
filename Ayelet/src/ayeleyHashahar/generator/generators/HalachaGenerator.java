@@ -21,6 +21,17 @@ import java.util.Calendar;
  * Time: 00:06
  */
 public class HalachaGenerator implements TextGenerator {
+    private static String parseHalachaDate(String dateToParse) {
+        String[] todayArray = dateToParse.split(" ");
+
+        dateToParse = todayArray[0] + " ?" + todayArray[1];
+        if (todayArray.length > 3) {
+            dateToParse = dateToParse + ' ' + todayArray[2];
+        }
+        dateToParse = dateToParse.replace("?????", "????");
+        return dateToParse;
+    }
+
     @Override
     public boolean isToCheck(MailGeneratorProperties mailGeneratorProperties) {
         return mailGeneratorProperties.isHalacha();
@@ -32,7 +43,7 @@ public class HalachaGenerator implements TextGenerator {
         Calendar currDate = (Calendar) mailGeneratorProperties.getDate().clone();
 
         HebrewDate hebDate = new HebrewDate(calendar);
-        String today = hebDate.getHebrewDateAsHebStringWithoutYear().replace("כסליו", "כסלו");
+        String today = hebDate.getHebrewDateAsHebStringWithoutYear().replace("?????", "????");
         calendar.add(Calendar.DAY_OF_MONTH, 1);
 
         RegularHebrewDate hebrewDate = new RegularHebrewDate();
@@ -44,7 +55,7 @@ public class HalachaGenerator implements TextGenerator {
             hebrewDate.setDate(calendar);
         }
 
-        String nextDay = hebrewDate.getHebrewDateAsHebStringWithoutYear().replace("כסליו", "כסלו");
+        String nextDay = hebrewDate.getHebrewDateAsHebStringWithoutYear().replace("?????", "????");
 
         File inputFile = new File(params.getHalachaFilename());
         BufferedReader in = new BufferedReader(new FileReader(inputFile));
@@ -52,7 +63,7 @@ public class HalachaGenerator implements TextGenerator {
 
         StringBuilder fullString = new StringBuilder();
 
-        while ((line = in.readLine()) != null && (!((line.trim().contains(today) && (line.trim().contains("הלכה יומית") || line.trim().contains("ראש חודש")))))) {
+        while ((line = in.readLine()) != null && (!((line.trim().contains(today) && (line.trim().contains("???? ?????") || line.trim().contains("??? ????")))))) {
         }
 
         line = FileUtils.goToNextNotEmptyLine(in);
@@ -72,7 +83,7 @@ public class HalachaGenerator implements TextGenerator {
             }
 
             if (!endDay) {
-                if (line.contains("------") || line.contains("תרי\"ג היום")) {
+                if (line.contains("------") || line.contains("???\"? ????")) {
                     endDay = true;
                 } else {
                     fullString.append(line.trim()).append("<BR/>\n");
@@ -85,17 +96,6 @@ public class HalachaGenerator implements TextGenerator {
         }
 
         mailGeneratorProperties.setHalachaTextToSend(fullString.toString());
-    }
-
-    private static String parseHalachaDate(String dateToParse) {
-        String[] todayArray = dateToParse.split(" ");
-
-        dateToParse = todayArray[0] + " ב" + todayArray[1];
-        if (todayArray.length > 3) {
-            dateToParse = dateToParse + " " + todayArray[2];
-        }
-        dateToParse = dateToParse.replace("כסליו", "כסלו");
-        return dateToParse;
     }
 
 }
