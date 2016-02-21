@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/resources/data/rishoni.htm" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/ayeleyHashahar/cons/MailSenderCons.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/ayeleyHashahar/generator/generators/ParashaGenerator.java" charset="windows-1255" />
+    <file url="PROJECT" charset="windows-1255" />
   </component>
 </project>
