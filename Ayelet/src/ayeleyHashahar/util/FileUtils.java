@@ -34,7 +34,7 @@ public class FileUtils {
             if (defaultFile == null) {
                 defaultFile = "preferences.properties";
             }
-            dynamicPropertiesLocation = baseDir + '\\' + defaultFile;
+            dynamicPropertiesLocation = baseDir + '/' + defaultFile;
             try {
 
                 MailSenderCons.dynamic_properties.load(new FileInputStream(dynamicPropertiesLocation));

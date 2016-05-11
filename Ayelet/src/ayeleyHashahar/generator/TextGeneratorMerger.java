@@ -26,7 +26,7 @@ public class TextGeneratorMerger {
 
 
     private TextGeneratorMerger() {
-        textGenerators = new HashSet<TextGenerator>();
+        textGenerators = new HashSet<>();
         textGenerators.add(new ParashaGenerator());
         textGenerators.add(new HalachaGenerator());
         textGenerators.add(new MusarLashonNew());
@@ -88,11 +88,11 @@ public class TextGeneratorMerger {
 
         mailGeneratorProperties.updateKotarot();
 
-        String fileName = MailSenderCons.properties.getProperty(MailSenderCons.BASE_DIR) + '\\' + MailSenderCons.properties.getProperty(MailSenderCons.MAIL_TEMPLATE_LOCATION);
+        String fileName = MailSenderCons.properties.getProperty(MailSenderCons.BASE_DIR) + '/' + MailSenderCons.properties.getProperty(MailSenderCons.MAIL_TEMPLATE_LOCATION);
         String page = FileUtils.fileToString(fileName);
 
         String holiday = regularHebrewDate.getHoliday();
-        if (!"".equals(holiday)) {
+        if (holiday != null && !holiday.isEmpty()) {
             holiday = "<span style=\"color:RED\">" + holiday + "</span>, ";
         }
 
@@ -120,7 +120,7 @@ public class TextGeneratorMerger {
             if (hodaot != null && hodaot.equals(mailGeneratorProperties.getHodaot())) {
                 hodaot = "";
             }
-            hodaot += " " + RegularHebrewDate.getCandleAndHavdala();
+            hodaot += ' ' + RegularHebrewDate.getCandleAndHavdala();
         }
 
 
@@ -153,6 +153,7 @@ public class TextGeneratorMerger {
 
         int templateLength = page.length();
 
+        //noinspection DynamicRegexReplaceableByCompiledPattern
         String completePage = page.replace("_KOTERET_PARASHA_", mailGeneratorProperties.getKoteretParasha())
                 .replace("_KOTERET_HALACHA_", mailGeneratorProperties.getKoteretHalachaYomit())
                 .replace("_KOTERET_MUSAR_", mailGeneratorProperties.getKoteretMusar())
