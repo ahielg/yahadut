@@ -2,3 +2,5 @@
 *.log
 artifacts/
 out/
+*.iml
+*.ipr

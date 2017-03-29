@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class VetenChelkenu  implements TextGenerator {
     private static final String VETEN_SITE = "http://www.veten.co.il/%s%d.pdf";
-    private static final String[] HEBREW_MONTHS = {"Manisan", "iyar", "sivan", "tamuz",//first year was eyar.. now its eiar, and now eyar again, and now iyar
+    private static final String[] HEBREW_MONTHS = {"nisan", "iyar", "sivan", "tamuz",//first year was eyar.. now its eiar, and now eyar again, and now iyar
             "av", "elul", "tishrei", "cheshvan",
             "kislev", "tevet", "shvat", "adar", "adar-b"};
 
