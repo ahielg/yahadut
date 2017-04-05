@@ -1,11 +1,5 @@
 package hebDate.suntimes;
 
-/**
- * User: ahiel
- * Date: 29/07/12
- * Time: 15:11
- */
-
 import hebDate.Utilities;
 
 import java.util.Calendar;
@@ -60,6 +54,10 @@ public class SunTimes {
     // DEG_PER_HOUR is the number of degrees of longitude
 //  that corresponds to one hour time difference.
     private static final double DEG_PER_HOUR = 360.0 / 24.0;
+
+    protected SunTimes() {
+// hide helper constructor
+    }
 
     /**
      * sin of an angle in degrees
@@ -135,8 +133,8 @@ public class SunTimes {
      *
      * @param longitude
      * @return Get time difference between location's longitude
-     *         and the Meridian, in hours. West of Meridian has
-     *         a negative time difference
+     * and the Meridian, in hours. West of Meridian has
+     * a negative time difference
      */
     private static double getHoursFromMeridian(double longitude) {
         return longitude / DEG_PER_HOUR;
@@ -220,6 +218,14 @@ public class SunTimes {
         ra = ra + lQuadrant - raQuadrant;
         return ra / DEG_PER_HOUR; //convert to hours
     }
+///**
+//Gets the cosine of the Sun's local hour angle for default zenith
+//*/
+//private static double getCosLocalHourAngle (double sunTrueLongitude,
+//      double latitude)
+//  {
+//  return getCosLocalHourAngle (sunTrueLongitude, latitude, ZENITH);
+//  }
 
     /**
      * Gets the cosine of the Sun's local hour angle
@@ -238,14 +244,6 @@ public class SunTimes {
         return (cosDeg(zenith) - sinDec * sinDeg(latitude)) /
                 (cosDec * cosDeg(latitude));
     }
-///**
-//Gets the cosine of the Sun's local hour angle for default zenith
-//*/
-//private static double getCosLocalHourAngle (double sunTrueLongitude,
-//      double latitude)
-//  {
-//  return getCosLocalHourAngle (sunTrueLongitude, latitude, ZENITH);
-//  }
 
     /**
      * Calculate local mean time of rising or setting. By `local' is meant the exact
@@ -279,6 +277,7 @@ public class SunTimes {
      * @param zenith    Sun's zenith, in degrees
      * @param type      type of calculation to carry out
      *                  </pre>
+     *
      * @return
      * @throws SunTimesException
      */
@@ -329,6 +328,7 @@ public class SunTimes {
      * @param latitude  in degrees, latitudes south of equator are negative
      * @param zenith    Sun's zenith, in degrees
      *                  </pre>
+     *
      * @return
      * @throws SunTimesException
      */
@@ -354,6 +354,7 @@ public class SunTimes {
      * @param latitude  in degrees, latitudes south of equator are negative
      * @param zenith    Sun's zenith, in degrees
      *                  </pre>
+     *
      * @return
      * @throws SunTimesException
      */
@@ -401,9 +402,5 @@ public class SunTimes {
         }
         return sunsetTime.getFractionalHours() -
                 sunriseTime.getFractionalHours();
-    }
-
-    protected SunTimes() {
-// hide helper constructor
     }
 }

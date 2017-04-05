@@ -1,12 +1,6 @@
 package hebDate.suntimes;
 
 /**
- * User: ahiel
- * Date: 29/07/12
- * Time: 15:10
- */
-
-/**
  * %%Ignore-License
  * Java class for representing a time as a simple triple of numbers (hours,
  * minutes, seconds). This class is used by the SunTimes class to return sunrise
@@ -22,9 +16,9 @@ package hebDate.suntimes;
  */
 @SuppressWarnings("UnusedDeclaration")
 public class Time {
-    protected int hour;
-    protected int minute;
-    protected int second;
+    private int hour;
+    private int minute;
+    private int second;
 
     public Time(int hour, int minute, int second) {
         this.hour = hour;
@@ -66,19 +60,19 @@ public class Time {
         if (hour < 10) {
             s += "0" + hour;
         } else {
-            s += "" + hour;
+            s += String.valueOf(hour);
         }
         s += ":";
         if (minute < 10) {
             s += "0" + minute;
         } else {
-            s += "" + minute;
+            s += String.valueOf(minute);
         }
         s += ":";
         if (second < 10) {
             s += "0" + second;
         } else {
-            s += "" + second;
+            s += String.valueOf(second);
         }
         return s;
     }

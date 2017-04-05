@@ -3,11 +3,14 @@ package hebrewDate;
 import java.util.Calendar;
 
 /**
- * User: ahiel
- * Date: 27/07/12
- * Time: 10:56
+ * @author ahiel
+ * @date 27/07/12
  */
 public class CalendarDate {
+    private int day;
+    private int month;
+    private int year;
+
     CalendarDate(int day, int month, int year) {
         this.day = day;
         this.month = month;
@@ -30,20 +33,20 @@ public class CalendarDate {
         return day;
     }
 
-    public int getMonth() {
-        return month;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
     public void setDay(int day) {
         this.day = day;
     }
 
+    public int getMonth() {
+        return month;
+    }
+
     public void setMonth(int month) {
         this.month = month;
+    }
+
+    public int getYear() {
+        return year;
     }
 
     public void setYear(int year) {
@@ -63,8 +66,4 @@ public class CalendarDate {
     public String toString() {
         return day + "." + month + '.' + year;
     }
-
-    private int day;
-    private int month;
-    private int year;
 }

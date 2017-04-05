@@ -1,8 +1,5 @@
-package ayeleyHashahar.util; /**
- * User: ahiel
- * Date: 27/07/12
- * Time: 00:34
- */
+package ayeleyHashahar.util;
+
 
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
@@ -16,6 +13,11 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
+/**
+ * @author ahiel
+ * @date 27/07/12 00:34
+ */
+
 public class LocalEncrypter {
     private static SecretKey key;
     private static sun.misc.BASE64Encoder base64encoder;
@@ -26,14 +28,9 @@ public class LocalEncrypter {
             DESKeySpec keySpec = new DESKeySpec("beezratHashem".getBytes("UTF8"));
             SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
             key = keyFactory.generateSecret(keySpec);
-        } catch (InvalidKeySpecException ignored) {
-
-        } catch (NoSuchAlgorithmException ignored) {
-
-        } catch (InvalidKeyException ignored) {
-
-        } catch (UnsupportedEncodingException ignored) {
-
+        } catch (InvalidKeySpecException | UnsupportedEncodingException | InvalidKeyException | NoSuchAlgorithmException error) {
+            System.out.println("Error while parsing data. details: ");
+            error.printStackTrace();
         }
         base64encoder = new BASE64Encoder();
         base64decoder = new BASE64Decoder();

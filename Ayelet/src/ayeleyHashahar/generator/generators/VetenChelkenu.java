@@ -9,9 +9,9 @@ import java.io.IOException;
 
 /**
  * @author Ahielg
- *         Date: 11/28/12
+ * @date 28/11/12
  */
-public class VetenChelkenu  implements TextGenerator {
+public class VetenChelkenu implements TextGenerator {
     private static final String VETEN_SITE = "http://www.veten.co.il/%s%d.pdf";
     private static final String[] HEBREW_MONTHS = {"nisan", "iyar", "sivan", "tamuz",//first year was eyar.. now its eiar, and now eyar again, and now iyar
             "av", "elul", "tishrei", "cheshvan",

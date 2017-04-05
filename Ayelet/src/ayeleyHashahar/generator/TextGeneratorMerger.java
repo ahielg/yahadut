@@ -15,13 +15,12 @@ import java.util.Calendar;
 import java.util.HashSet;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 23:47
+ * @author ahiel
+ * @date 06/11/12 23:47
  */
 public class TextGeneratorMerger {
-    private static TextGeneratorMerger instance = new TextGeneratorMerger();
-    private static String AYELET_HASHACHAR = "איילת השחר";
+    private static final TextGeneratorMerger INSTANCE = new TextGeneratorMerger();
+    private static final String AYELET_HASHACHAR = "איילת השחר";
     HashSet<TextGenerator> textGenerators;
 
 
@@ -39,7 +38,7 @@ public class TextGeneratorMerger {
     }
 
     public static synchronized TextGeneratorMerger getInstance() {
-        return instance;
+        return INSTANCE;
     }
 
     public static GeneratorParameters createGeneratorParameters(MailGeneratorProperties mailGeneratorProperties) {
@@ -174,8 +173,8 @@ public class TextGeneratorMerger {
 
     public String generateMailSubject(MailGeneratorProperties mailGeneratorProperties) throws IOException {
         RegularHebrewDate regularHebrewDate = new RegularHebrewDate(mailGeneratorProperties.getDate());
-        String subject = AYELET_HASHACHAR + " - ";//MailSenderCons.properties.getProperty(MailSenderCons.NOSE)
-        subject = "";
+        // String subject = AYELET_HASHACHAR + " - ";//MailSenderCons.properties.getProperty(MailSenderCons.NOSE)
+        String subject = "";
         int parashaBaa = RegularHebrewDate.getNextParashaNumOnShabat(mailGeneratorProperties.getDate());
         int nextHolidayNum = RegularHebrewDate.getNextHolidayNum(mailGeneratorProperties.getDate(), 7);
 

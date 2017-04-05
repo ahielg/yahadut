@@ -3,9 +3,8 @@ package ayeleyHashahar.parameters;
 import java.util.Calendar;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 22:56
+ * @author ahiel
+ * @date 06/11/12 22:56
  */
 @SuppressWarnings("UnusedDeclaration")
 public class MailGeneratorProperties {
@@ -27,6 +26,7 @@ public class MailGeneratorProperties {
         this.musar = musar;
         this.halacha = halacha;
         this.parasha = parasha;
+        //noinspection AssignmentToDateFieldFromParameter
         this.date = date;
     }
 

@@ -13,8 +13,8 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * @author Ahielg
- * Date: 12/4/12
+ * @author ahiel
+ * @date 12/4/12
  */
 public class HolidaysGenerator implements TextGenerator {
     @Override

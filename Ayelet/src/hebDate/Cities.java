@@ -1,9 +1,8 @@
 package hebDate;
 
 /**
- * User: ahiel
- * Date: 29/07/12
- * Time: 18:09
+ * @author ahiel
+ * @date 29/07/12 18:09
  */
 public enum Cities {
     TelAviv,

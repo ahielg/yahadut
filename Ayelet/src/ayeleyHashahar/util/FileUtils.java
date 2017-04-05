@@ -7,9 +7,8 @@ import java.io.*;
 import java.util.Properties;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 23:39
+ * @author ahiel
+ * @date 06/11/12 23:39
  */
 public class FileUtils {
 
@@ -47,8 +46,8 @@ public class FileUtils {
 
                 fileOutputStream.close();
                 MailSenderCons.dynamic_properties.load(new FileInputStream(dynamicPropertiesLocation));
-                MailSenderCons.dynamic_properties.setProperty(MailSenderCons.SEND_MAIL_TO,MailSenderCons.properties.getProperty(MailSenderCons.SEND_MAIL_TO));
-                MailSenderCons.dynamic_properties.setProperty(MailSenderCons.SEND_MAIL_TO_DEBUG,MailSenderCons.properties.getProperty(MailSenderCons.SEND_MAIL_TO_DEBUG));
+                MailSenderCons.dynamic_properties.setProperty(MailSenderCons.SEND_MAIL_TO, MailSenderCons.properties.getProperty(MailSenderCons.SEND_MAIL_TO));
+                MailSenderCons.dynamic_properties.setProperty(MailSenderCons.SEND_MAIL_TO_DEBUG, MailSenderCons.properties.getProperty(MailSenderCons.SEND_MAIL_TO_DEBUG));
                 MailSenderCons.dynamic_properties.setProperty(MailSenderCons.IS_THURSDAY_LAST_DAY,
                         MailSenderCons.properties.getProperty(MailSenderCons.IS_THURSDAY_LAST_DAY));
             }

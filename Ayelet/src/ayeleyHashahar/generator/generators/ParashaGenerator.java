@@ -13,9 +13,8 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 23:37
+ * @author ahiel
+ * @date 06/11/12 23:37
  */
 public class ParashaGenerator implements TextGenerator {
     public static boolean generalIsToCheck(MailGeneratorProperties mailGeneratorProperties) {

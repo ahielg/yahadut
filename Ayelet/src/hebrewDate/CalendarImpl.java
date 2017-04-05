@@ -1,9 +1,8 @@
 package hebrewDate;
 
 /**
- * User: ahiel
- * Date: 27/07/12
- * Time: 10:57
+ * @author ahiel
+ * @date 27/07/12
  */
 public class CalendarImpl {
     /*
@@ -24,6 +23,8 @@ public class CalendarImpl {
         calendar = new CalendarImpl();
     }
 
+    private int month_list[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
     private CalendarImpl() {
 
     }
@@ -36,8 +37,6 @@ public class CalendarImpl {
     public static int getWeekday(int absDate) {
         return (absDate % 7);
     }
-
-    private int month_list[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
     public int getLastDayOfGregorianMonth(int month, int year) {
         if ((month == 2) &&

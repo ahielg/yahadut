@@ -12,9 +12,8 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * User: ahiel
- * Date: 07/11/12
- * Time: 00:06
+ * @author ahiel
+ * @date 07/11/12 00:06
  */
 public class MusarLashonGenerator implements TextGenerator {
     @Override

@@ -16,9 +16,8 @@ import java.io.IOException;
 import java.util.Calendar;
 
 /**
- * User: ahiel
- * Date: 07/11/12
- * Time: 00:06
+ * @author ahiel
+ * @date 7/11/12 00:06
  */
 public class HalachaGenerator implements TextGenerator {
     private static String parseHalachaDate(String dateToParse) {
@@ -26,7 +25,7 @@ public class HalachaGenerator implements TextGenerator {
 
         dateToParse = todayArray[0] + " ב" + todayArray[1];
         if (todayArray.length > 3) {
-            dateToParse = dateToParse + " " + todayArray[2];
+            dateToParse = dateToParse + ' ' + todayArray[2];
         }
         dateToParse = dateToParse.replace("כסליו", "כסלו");
         return dateToParse;

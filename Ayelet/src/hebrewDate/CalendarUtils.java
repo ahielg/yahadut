@@ -9,9 +9,8 @@ import java.util.Set;
 import java.util.TimeZone;
 
 /**
- * User: ahiel
- * Date: 27/07/12
- * Time: 10:58
+ * @author ahiel
+ * @date 27/07/12
  */
 @SuppressWarnings("UnusedDeclaration")
 public class CalendarUtils {

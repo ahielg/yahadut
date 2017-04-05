@@ -1,23 +1,22 @@
 package ayeleyHashahar.parameters;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 23:35
+ * @author ahiel
+ * @date 06/11/12 23:35
  */
 public class GeneratorParameters {
-    private String halachaFilename;
-    private String musarFilename;
-    private String parashaFilename;
-    private String holidaysFilename;
+    private final String halachaFilename;
+    private final String musarFilename;
+    private final String parashaFilename;
+    private final String holidaysFilename;
 
-    private int parashaNum;
-    private int holidayNum;
-    private long musarLineNum;
-    private long parashaLineNum;
+    private final int parashaNum;
+    private final int holidayNum;
+    private final long musarLineNum;
+    private final long parashaLineNum;
 
-    private long holidayLineNum;
-    private boolean isThursdayLastDay;
+    private final long holidayLineNum;
+    private final boolean isThursdayLastDay;
 
     public GeneratorParameters(String halachaFilename, String musarFilename, String parashaFilename, String holidaysFilename,
                                int parashaNum, int holidayNum, long musarLineNum, long parashaLineNum, long holidayLineNum,
@@ -53,6 +52,7 @@ public class GeneratorParameters {
     public int getParashaNum() {
         return parashaNum;
     }
+
     public long getMusarLineNum() {
         return musarLineNum;
     }

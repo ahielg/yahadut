@@ -14,9 +14,8 @@ import java.util.Properties;
 import java.util.regex.Pattern;
 
 /**
- * User: ahiel
- * Date: 19/07/12
- * Time: 23:30
+ * @author ahiel
+ * @date 19/07/12 23:30
  */
 public class MailSender {
     private static final Pattern COMPILE = Pattern.compile(",");
@@ -32,12 +31,12 @@ public class MailSender {
             pass = LocalEncrypter.decrypt(MailSenderCons.properties.getProperty(MailSenderCons.MAIL_PASSWORD));
         }
         Properties props = System.getProperties();
-        props.put("mail.smtp.starttls.enable", "true"); // added this line
-        props.put("mail.smtp.host", host);
-        props.put("mail.smtp.user", from);
-        props.put("mail.smtp.password", pass);
-        props.put("mail.smtp.port", "587");
-        props.put("mail.smtp.auth", "true");
+        props.setProperty("mail.smtp.starttls.enable", "true"); // added this line
+        props.setProperty("mail.smtp.host", host);
+        props.setProperty("mail.smtp.user", from);
+        props.setProperty("mail.smtp.password", pass);
+        props.setProperty("mail.smtp.port", "587");
+        props.setProperty("mail.smtp.auth", "true");
 
         //String[] to = getMailAddresses();
 

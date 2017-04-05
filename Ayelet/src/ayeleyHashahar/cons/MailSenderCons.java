@@ -3,9 +3,8 @@ package ayeleyHashahar.cons;
 import java.util.Properties;
 
 /**
- * User: ahiel
- * Date: 27/07/12
- * Time: 00:30
+ * @author ahiel
+ * @date 27/07/12 00:30
  */
 public class MailSenderCons {
 

@@ -7,11 +7,11 @@ import java.io.IOException;
 
 /**
  * @author Ahielg
- * date: 10/6/13
+ * @date 10/6/13
  */
 public class UpdateLines {
     public static void main(String[] args) throws IOException {
-        if (args.length != 2 || !isInteger(args[0]) || !isInteger(args[1])) {
+        if (args.length != 2 || inNotNumber(args[0]) || inNotNumber(args[1])) {
             System.out.println("Usage: " + UpdateLines.class.getSimpleName() + " [ParashaNumber] [Lines to add]");
             int i = 0;
             for (String s : RegularHebrewDate.getParshios()) {
@@ -40,13 +40,13 @@ public class UpdateLines {
 
     }
 
-    public static boolean isInteger(String str) {
+    private static boolean inNotNumber(String str) {
         try {
             //noinspection ResultOfMethodCallIgnored
             Integer.parseInt(str);
-            return true;
+            return false;
         } catch (NumberFormatException ignored) {
         }
-        return false;
+        return true;
     }
 }

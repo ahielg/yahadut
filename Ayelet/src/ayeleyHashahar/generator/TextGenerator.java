@@ -6,9 +6,8 @@ import ayeleyHashahar.parameters.MailGeneratorProperties;
 import java.io.IOException;
 
 /**
- * User: ahiel
- * Date: 06/11/12
- * Time: 23:33
+ * @author ahiel
+ * @date 06/11/12 23:33
  */
 public interface TextGenerator {
     boolean isToCheck(MailGeneratorProperties mailGeneratorProperties);
