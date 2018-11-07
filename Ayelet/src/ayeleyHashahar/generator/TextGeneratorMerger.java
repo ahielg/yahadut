@@ -142,7 +142,7 @@ public class TextGeneratorMerger {
                 mailGeneratorProperties.setKoteretParasha(mailGeneratorProperties.getKoteretHalachaYomit());
                 mailGeneratorProperties.setKoteretHalachaYomit("");
                 mailGeneratorProperties.setParashaTextToSend(mailGeneratorProperties.getHalachaTextToSend());
-                mailGeneratorProperties.setHalachaTextToSend("ההלכות מתוך הספר \"הלכה יומית - שנה ב'\" בעריכתו של הרב ליאור בר-דע שליט\"א." +
+                mailGeneratorProperties.setHalachaTextToSend("ההלכות מתוך הספר \"הלכה יומית\" בעריכתו של הרב ליאור בר-דע שליט\"א." +
                         "<BR/>" +
                         "את הספר הלכה יומית ניתן להשיג בטלפונים 02-9973696 או 03-6748786");
             }
@@ -171,7 +171,7 @@ public class TextGeneratorMerger {
         return completePage;
     }
 
-    public String generateMailSubject(MailGeneratorProperties mailGeneratorProperties) throws IOException {
+    public String generateMailSubject(MailGeneratorProperties mailGeneratorProperties) {
         RegularHebrewDate regularHebrewDate = new RegularHebrewDate(mailGeneratorProperties.getDate());
         // String subject = AYELET_HASHACHAR + " - ";//MailSenderCons.properties.getProperty(MailSenderCons.NOSE)
         String subject = "";
