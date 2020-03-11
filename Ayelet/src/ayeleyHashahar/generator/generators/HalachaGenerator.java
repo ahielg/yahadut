@@ -62,7 +62,8 @@ public class HalachaGenerator implements TextGenerator {
 
         StringBuilder fullString = new StringBuilder();
 
-        while ((line = in.readLine()) != null && (!((line.trim().contains(today) && (line.trim().contains("הלכה יומית") || line.trim().contains("ראש חודש")))))) {
+        while ((line = in.readLine()) != null && (!isSelectedDay(today, line))) {
+            System.out.println(line);
         }
 
         line = FileUtils.goToNextNotEmptyLine(in);
@@ -95,6 +96,11 @@ public class HalachaGenerator implements TextGenerator {
         }
 
         mailGeneratorProperties.setHalachaTextToSend(fullString.toString());
+    }
+
+    private boolean isSelectedDay(String today, String line) {
+        return (line.trim().contains(today) && (line.trim().contains("הלכה יומית") || line.trim().contains("ראש חודש")))
+                || (line.trim().endsWith(today));
     }
 
 }
