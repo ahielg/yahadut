@@ -143,8 +143,8 @@ public class TextGeneratorMerger {
                 mailGeneratorProperties.setKoteretHalachaYomit("");
                 mailGeneratorProperties.setParashaTextToSend(mailGeneratorProperties.getHalachaTextToSend());
                 mailGeneratorProperties.setHalachaTextToSend("ההלכות מתוך הספר \"הלכה יומית\" בעריכתו של הרב ליאור בר-דע שליט\"א." +
-                        "<BR/>" +
-                        "את הספר הלכה יומית ניתן להשיג בטלפונים 02-9973696 או 03-6748786");
+                        "<BR/>" + "את הספר הלכה יומית ניתן להשיג בטלפונים 02-9973696 או 03-6748786" + "<BR/>" +
+                        " <a href=\"https://www.youtube.com/channel/UC_B1UgowbmS8t_6H49Cabjw\">אתר סיפורים מהרב</a>");
             }
         } else {
             hebDate = "<a href=\"http://www.yeshiva.org.il/calendar/\" style=\"text-decoration:none;color:#999\">" + hebDate + "</a>";
