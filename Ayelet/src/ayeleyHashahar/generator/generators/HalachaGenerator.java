@@ -36,6 +36,11 @@ public class HalachaGenerator implements TextGenerator {
         return mailGeneratorProperties.isHalacha();
     }
 
+    private static boolean isSelectedDay(String today, String line) {
+        return (line.trim().contains(today) && (line.trim().contains("הלכה יומית") || line.trim().contains("ראש חודש")))
+                || (line.trim().endsWith(today));
+    }
+
     @Override
     public void generateText(GeneratorParameters params, MailGeneratorProperties mailGeneratorProperties) throws IOException {
         Calendar calendar = (Calendar) mailGeneratorProperties.getDate().clone();
@@ -60,7 +65,7 @@ public class HalachaGenerator implements TextGenerator {
         BufferedReader in = new BufferedReader(new FileReader(inputFile));
         String line;
 
-        StringBuilder fullString = new StringBuilder();
+        StringBuilder fullString = new StringBuilder(2000);
 
         while ((line = in.readLine()) != null && (!isSelectedDay(today, line))) {
             System.out.println(line);
@@ -96,11 +101,6 @@ public class HalachaGenerator implements TextGenerator {
         }
 
         mailGeneratorProperties.setHalachaTextToSend(fullString.toString());
-    }
-
-    private boolean isSelectedDay(String today, String line) {
-        return (line.trim().contains(today) && (line.trim().contains("הלכה יומית") || line.trim().contains("ראש חודש")))
-                || (line.trim().endsWith(today));
     }
 
 }
